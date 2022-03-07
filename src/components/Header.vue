@@ -25,16 +25,34 @@
           <div class="olympic_links__box">
             <div class="olympic_links_above__box">
               <ul>
-                <li>Virtual Qabulxona</li>
-                <li>Elonlar</li>
-                <li>Media Galeriya</li>
-                <li>Izlash</li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-headset"></i> Virtual Qabulxona</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-headset"></i> E'lonlar</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-headset"></i> Mediya Galeriya</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-search"></i> Izlash</a>
+                </li>
               </ul>
               <ul>
-                <li>Русский</li>
-                <li>English</li>
-                <li>Узбекча</li>
-                <li>O'zbekcha</li>
+                <li>
+                  <a href="#"><i class="fas fa-globe"></i> Русский</a>
+                </li>
+                <li>
+                  <a href="#">English</a>
+                </li>
+                <li>
+                  <a href="#">Узбекча</a>
+                </li>
+                <li>
+                  <a class="active" href="#">O'zbekcha</a>
+                </li>
               </ul>
             </div>
             <hr />
