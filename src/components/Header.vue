@@ -2,7 +2,7 @@
   <header class="header">
     <div class="container">
       <div class="row header_row">
-        <div class="col-3">
+        <div class="col-4">
           <div class="olympic_logo__box">
             <div class="row">
               <div class="col-3">
@@ -13,15 +13,15 @@
               <div class="col-9">
                 <h3>O‘zbekiston Milliy Olimpiya Qo‘mitasi</h3>
                 <ul>
-                  <li>CITIUS</li>
-                  <li>CALTIUS</li>
-                  <li>FORTIUS</li>
+                  <li><a href="#">CITIUS</a></li>
+                  <li><a href="#">CALTIUS</a></li>
+                  <li><a href="#">FORTIUS</a></li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-9">
+        <div class="col-8">
           <div class="olympic_links__box">
             <div class="olympic_links_above__box">
               <ul>
