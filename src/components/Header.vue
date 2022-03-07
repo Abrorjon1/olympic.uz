@@ -21,7 +21,7 @@
             </div>
           </div>
         </div>
-        <div class="col-8">
+        <div class="col-8 align-items-center d-flex">
           <div class="olympic_links__box">
             <div class="olympic_links_above__box">
               <ul>
@@ -31,10 +31,10 @@
                   >
                 </li>
                 <li>
-                  <a href="#"><i class="fas fa-headset"></i> E'lonlar</a>
+                  <a href="#"><i class="fas fa-volume-up"></i> E'lonlar</a>
                 </li>
                 <li>
-                  <a href="#"><i class="fas fa-headset"></i> Mediya Galeriya</a>
+                  <a href="#"><i class="fas fa-image"></i> Mediya Galeriya</a>
                 </li>
                 <li>
                   <a href="#"><i class="fas fa-search"></i> Izlash</a>
@@ -58,11 +58,56 @@
             <hr />
             <div class="olympic_links_bottom__box">
               <ul>
-                <li>O'zbekiston MOQ</li>
-                <li>Yangiliklar</li>
-                <li>Federatsiyalar</li>
-                <li>O'yinlar</li>
-                <li>Jahon</li>
+                <li class="dropdown">
+                  <button class="dropbtn">
+                    O'zbekiston MOQ <i class="fas fa-chevron-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </li>
+                <li class="dropdown">
+                  <button class="dropbtn">
+                    Yangiliklar <i class="fas fa-chevron-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </li>
+                <li class="dropdown">
+                  <button class="dropbtn">
+                    Federatsiyalar <i class="fas fa-chevron-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </li>
+                <li class="dropdown">
+                  <button class="dropbtn">
+                    O'yinlar <i class="fas fa-chevron-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </li>
+                <li class="dropdown">
+                  <button class="dropbtn">
+                    Jahon <i class="fas fa-chevron-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
