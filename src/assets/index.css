@@ -119,3 +119,32 @@ ul {
 }
 
 /* dropdown buttons end  */
+
+/* Baner section  */
+
+.banner {
+  min-height: 80vh;
+  display: grid;
+}
+.banner__wrapper {
+  height: 100%;
+}
+.banner__item {
+  width: 100%;
+  height: 100%;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.bi__first {
+  background: url("./../../public/images/banner/b1.jpg");
+}
+.bi__second {
+  background: url("./../../public/images/banner/b2.jpg");
+}
+.bi__third {
+  background: url("./../../public/images/banner/b3.jpg");
+}
+.bi__fourth {
+  background: url("./../../public/images/banner/b4.jpg");
+}
