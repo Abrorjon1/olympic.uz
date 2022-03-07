@@ -1,0 +1,29 @@
+header {
+  min-height: 10vh;
+}
+.header_row {
+  display: flex;
+}
+.olympic_logo__box {
+  background-color: #e9eef5;
+}
+.olympic_logo__box .row {
+  display: flex;
+  flex-direction: row;
+}
+.olympic_logo__box .row .col-3 img {
+  width: 100%;
+}
+.olympic_logo__box .row .col-9 ul {
+  display: flex;
+  flex-direction: row;
+}
+.olympic_links__box {
+  display: flex;
+  flex-direction: column;
+}
+.olympic_links_above__box ul,
+.olympic_links_bottom__box ul {
+  display: flex;
+  flex-direction: row;
+}
