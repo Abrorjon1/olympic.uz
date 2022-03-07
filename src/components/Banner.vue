@@ -1,10 +1,18 @@
 <template>
   <section class="banner">
-    <div class="banner__wrapper">
-      <div class="banner__item bi__first"></div>
-      <div class="banner__item bi__second"></div>
-      <div class="banner__item bi__third"></div>
-      <div class="banner__item bi__fourth"></div>
+    <div class="banner__wrapper row">
+      <div class="banner__item col-3">
+        <img src="./../../public/images/banner/b1.jpg" alt="" />
+      </div>
+      <div class="banner__item col-3">
+        <img src="./../../public/images/banner/b2.jpg" alt="" />
+      </div>
+      <div class="banner__item col-3">
+        <img src="./../../public/images/banner/b3.jpg" alt="" />
+      </div>
+      <div class="banner__item col-3">
+        <img src="./../../public/images/banner/b4.jpg" alt="" />
+      </div>
     </div>
   </section>
 </template>
