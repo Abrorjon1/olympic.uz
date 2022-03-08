@@ -325,6 +325,14 @@ hr {
 .interview__section .container {
   max-width: 1300px;
 }
+.interview_m__row {
+  width: 100%;
+  margin: 0 0 90px 0;
+  justify-content: space-between;
+}
+.interview_m__row .col-7 {
+  padding-left: 0;
+}
 .interview_col_7_textpart {
   position: relative;
   background: url("./../../public/images/interview/i1.jpg");
@@ -372,7 +380,7 @@ hr {
   justify-content: end;
   padding: 15px;
   color: #fff;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 1%;
@@ -391,7 +399,7 @@ hr {
   justify-content: end;
   padding: 15px;
   color: #fff;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 1%;
@@ -400,4 +408,7 @@ hr {
 .interview_alone_img__box,
 .interview_alone_img__box img {
   width: 100%;
+}
+.interview_alone_img__box {
+  box-shadow: 0 0 10px 5px rgb(0 0 0 / 9%);
 }
