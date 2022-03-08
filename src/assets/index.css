@@ -218,3 +218,23 @@ ul {
   background-color: #ccc;
   opacity: 1;
 }
+
+/* News Section  */
+.news__section {
+  font-family: "Roboto", sans-serif;
+  height: 60vh;
+  padding: 100px 0;
+}
+.news__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.news__head h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.news__section .row .col-6 img {
+  width: 100%;
+}
