@@ -320,6 +320,7 @@ hr {
   background-color: #f4f5f4;
 }
 .interview_col_7_textpart {
+  position: relative;
   background: url("./../../public/images/interview/i1.jpg");
   height: 100%;
   display: flex;
@@ -332,15 +333,34 @@ hr {
   background-size: cover;
   border-radius: 1%;
   text-align: left;
+  border: none;
+  z-index: 1;
+}
+.interview_col_7_textpart::before,
+.interview_row__one:before,
+.interview_row__two:before {
+  z-index: -1;
+  border-radius: 1%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  opacity: 0.3;
 }
 .interview_col_7_textpart:hover,
 .interview_row__one:hover,
 .interview_row__two:hover {
-  color: rgb(238, 237, 237);
+  color: #fff;
+  box-shadow: 0 0 10px rgb(126, 126, 126);
 }
 .interview_row__one {
   background: url("./../../public/images/interview/i2.jpg");
-  height: 50vh;
+  height: 40vh;
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -352,10 +372,14 @@ hr {
   border-radius: 1%;
   text-align: left;
   margin-bottom: 10px;
+  border: none;
 }
 .interview_row__two {
+  border: none;
+  position: relative;
+  z-index: 1;
   background: url("./../../public/images/interview/i3.jpg");
-  height: 50vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: end;
