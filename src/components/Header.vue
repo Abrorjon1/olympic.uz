@@ -51,7 +51,7 @@
                   <a href="#">Узбекча</a>
                 </li>
                 <li>
-                  <a class="active" href="#">O'zbekcha</a>
+                  <a class="active last" href="#">O'zbekcha</a>
                 </li>
               </ul>
             </div>

@@ -62,11 +62,14 @@ ul {
 }
 .olympic_links_above__box ul li a {
   font-size: 15px;
-  margin-right: 10px;
+  margin-right: 18px;
   font-weight: 600;
   text-decoration: none;
   color: #929dad;
   letter-spacing: 1px;
+}
+.last {
+  margin-right: 0 !important;
 }
 .olympic_links_above__box {
   display: flex;
@@ -135,6 +138,7 @@ ul {
 .banner .container {
   max-width: 1300px;
   position: relative;
+  padding: 0 12px;
 }
 .banner__wrapper {
   display: flex;
@@ -165,8 +169,9 @@ ul {
   font-family: "Roboto", sans-serif;
   position: absolute;
   color: #fff;
-  top: 20vh;
-  left: 15vh;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 .banner_item__text h3 {
   font-weight: 700;
@@ -184,5 +189,5 @@ ul {
   position: absolute;
   color: #fff;
   top: 65vh;
-  left: 7vh;
+  left: 0;
 }
