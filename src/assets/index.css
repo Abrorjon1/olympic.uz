@@ -311,3 +311,6 @@ hr {
   color: #ccc;
   font-weight: 700;
 }
+.news__section .container .row .col-6:last-child hr {
+  margin: 28px 0;
+}
