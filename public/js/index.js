@@ -45,3 +45,8 @@ $(function() {
   ]
       });
   });
+  
+  
+//   $(function() {
+//           $('.news__slider').owlCarousel();
+//     });
