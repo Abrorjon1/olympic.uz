@@ -221,7 +221,6 @@ hr {
 
 /* News Section  */
 .news__section {
-  background-color: #929dad;
   font-family: "Roboto", sans-serif;
   min-height: 120vh;
   padding: 100px 0;
@@ -313,4 +312,58 @@ hr {
 }
 .news__section .container .row .col-6:last-child hr {
   margin: 28px 0;
+}
+
+/* Interview section  */
+.interview__section {
+  padding: 90px 0;
+  background-color: #f4f5f4;
+}
+.interview_col_7_textpart {
+  background: url("./../../public/images/interview/i1.jpg");
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 15px;
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1%;
+  text-align: left;
+}
+.interview_col_7_textpart:hover,
+.interview_row__one:hover,
+.interview_row__two:hover {
+  color: rgb(238, 237, 237);
+}
+.interview_row__one {
+  background: url("./../../public/images/interview/i2.jpg");
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 15px;
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.interview_row__two {
+  background: url("./../../public/images/interview/i3.jpg");
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 15px;
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1%;
+  text-align: left;
 }
