@@ -74,10 +74,60 @@
               </button>
             </div>
           </div>
-
-          <div class="news__slider"></div>
         </div>
-        <div class="col-6"></div>
+        <div class="col-6">
+          <div class="row">
+            <div class="col-4">
+              <img src="./../../public/images/news/n1.jpg" alt="" />
+            </div>
+            <div class="col-8 news_col__8">
+              <h5>
+                Sportni rivojlantirish vaziri O‘zbekiston dzyudo federatsiyasiga
+                tashrif buyurdi
+              </h5>
+              <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
+            </div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-4">
+              <img src="./../../public/images/news/n2.jpg" alt="" />
+            </div>
+            <div class="col-8 news_col__8">
+              <h5>
+                Sportni rivojlantirish vaziri O‘zbekiston dzyudo federatsiyasiga
+                tashrif buyurdi
+              </h5>
+              <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
+            </div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-4">
+              <img src="./../../public/images/news/n3.jpg" alt="" />
+            </div>
+            <div class="col-8 news_col__8">
+              <h5>
+                Sportni rivojlantirish vaziri O‘zbekiston dzyudo federatsiyasiga
+                tashrif buyurdi
+              </h5>
+              <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
+            </div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-4">
+              <img src="./../../public/images/news/n4.jpg" alt="" />
+            </div>
+            <div class="col-8 news_col__8">
+              <h5>
+                Sportni rivojlantirish vaziri O‘zbekiston dzyudo federatsiyasiga
+                tashrif buyurdi
+              </h5>
+              <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>

@@ -214,7 +214,7 @@ ul {
 .banner_footer__item h3 {
   font-size: 20px;
 }
-.banner_footer__item hr {
+hr {
   background-color: #ccc;
   opacity: 1;
 }
@@ -243,7 +243,7 @@ ul {
   object-fit: cover;
   object-position: left top;
 }
-.news__section .row .col-6 p {
+.news__section .row .col-6:first-child p {
   margin: 15px 0;
   color: #ccc;
   font-weight: 700;
@@ -259,7 +259,7 @@ ul {
 }
 .slider_counter {
   font-family: "Lato", sans-serif;
-  margin: 20px 0;
+  margin: 20px 10px;
   position: relative;
   left: 3vh;
 }
@@ -300,4 +300,14 @@ ul {
 }
 .carousel-inner {
   height: 590px;
+}
+.news_col__8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.news_col__8 p {
+  margin-bottom: 0;
+  color: #ccc;
+  font-weight: 700;
 }
