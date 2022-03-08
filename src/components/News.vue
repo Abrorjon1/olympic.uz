@@ -53,30 +53,24 @@
             </div>
             <div class="btns__box">
               <button
-                class="carousel-control-prev btn btn-outline-primary"
+                class="carousel-control-prev"
                 type="button"
                 data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev"
               >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
+                <i class="fas fa-chevron-left"></i>
               </button>
               <div class="slider_counter">
                 <span class="first__count">2 /</span>
                 <span class="overall__count">3</span>
               </div>
               <button
-                class="carousel-control-next btn btn-outline-primary"
+                class="carousel-control-next"
                 type="button"
                 data-bs-target="#carouselExampleControls"
                 data-bs-slide="next"
               >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
+                <i class="fas fa-chevron-right"></i>
               </button>
             </div>
           </div>
