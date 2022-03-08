@@ -92,6 +92,7 @@ ul {
   display: flex;
   align-items: center;
   font-weight: 600;
+  letter-spacing: 0.5px;
 }
 .dropbtn i {
   margin-left: 5px;
@@ -128,10 +129,10 @@ ul {
 
 .slick-prev,
 .slick-next {
-  display: none;
+  display: none !important;
 }
 .banner {
-  height: 90vh;
+  height: 100vh;
   position: relative;
   overflow: hidden;
 }
@@ -170,7 +171,7 @@ ul {
   position: absolute;
   color: #fff;
   width: 100%;
-  top: 0;
+  top: 20vh;
   left: 0;
 }
 .banner_item__text h3 {
@@ -184,10 +185,36 @@ ul {
   padding: 5px 30px;
   font-size: 22px;
 }
+.banner__footer {
+  position: absolute;
+  display: block;
+  height: 25vh;
+  z-index: 1;
+  width: 100%;
+  bottom: 15vh;
+}
+.banner__footer .container {
+  height: 100%;
+}
+.banner_foter__box {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 0 12px;
+}
 .banner_footer__item {
   font-family: "Roboto", sans-serif;
-  position: absolute;
   color: #fff;
-  top: 65vh;
-  left: 0;
+  border: 1px solid #ccc;
+  padding: 24px;
+}
+.banner_footer__item {
+  margin: 10px 20px 10px 0;
+}
+.banner_footer__item h3 {
+  font-size: 20px;
+}
+.banner_footer__item hr {
+  background-color: #ccc;
+  opacity: 1;
 }
