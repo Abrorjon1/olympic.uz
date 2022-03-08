@@ -5,7 +5,7 @@
         <h3>Intervyu</h3>
         <button class="btn btn-outline-primary">Barcha intervyular</button>
       </div>
-      <div class="row">
+      <div class="row mb-5">
         <div class="col-7">
           <a class="interview_col_7_textpart btn">
             <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
@@ -30,6 +30,9 @@
             </a>
           </div>
         </div>
+      </div>
+      <div class="interview_alone_img__box">
+        <img src="./../../public/images/interview/i_logos.png" alt="" />
       </div>
     </div>
   </section>
