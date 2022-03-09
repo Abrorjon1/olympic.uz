@@ -117,17 +117,18 @@
         </div>
         <div class="col-md-3">
           <a class="btn">
-            <div class="row">
-              <div class="col-md-4 sport_text__box">
-                <h5>Suv Sporti</h5>
-                <p><i class="lnr lnr-sun"></i> Yozgi</p>
-              </div>
-              <div class="col-md-4">
-                <img
-                  src="https://olympic.uz/uploads/sports_types/94dcdfb1ccaed5ddb59e6d7968eb41fe.svg"
-                  alt=""
-                />
-              </div>
+            <div class="row sport_next__links">
+              <button href="#" class="btn">
+                Barchasi <i class="fas fa-chevron-right"></i>
+              </button>
+              <p>
+                <i class="lnr lnr-sun"></i> Yozgi sport turlari:
+                <span>7</span>
+              </p>
+              <p>
+                <i class="fas fa-snowflake"></i> Qishgi sport turlari:
+                <span>15</span>
+              </p>
             </div>
           </a>
         </div>

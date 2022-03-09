@@ -561,3 +561,32 @@ hr {
   padding: 0;
   background: #fff6d9;
 }
+.sport_next__links {
+  text-align: left;
+}
+
+.sport_next__links button {
+  display: flex;
+  align-items: center;
+  color: #0754c8;
+  font-size: 18px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+.sport_next__links p {
+  color: #929dad;
+}
+.sport_next__links button:focus,
+.sport_next__links button:hover {
+  box-shadow: none;
+  border: none;
+  outline: none;
+  color: #074db6;
+}
+.sport_next__links button i {
+  margin-left: 2%;
+}
+.lnr-sun {
+  font-weight: 700;
+}
