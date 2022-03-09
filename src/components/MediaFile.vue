@@ -4,10 +4,18 @@
       <div class="news__head">
         <h3>MediaFayl</h3>
         <div class="tab">
-          <button class="tablinks" onclick="openCity(event, 'London')">
+          <button
+            class="tablinks"
+            id="londonbtn"
+            onclick="openCity(event, 'London')"
+          >
             FotoGaleriya
           </button>
-          <button class="tablinks active" onclick="openCity(event, 'Paris')">
+          <button
+            class="tablinks"
+            id="parisbtn"
+            onclick="openCity(event, 'Paris')"
+          >
             VideoGaleriya
           </button>
         </div>
@@ -43,7 +51,7 @@
         </div>
       </div>
 
-      <div id="Paris" class="tabcontent d-block">
+      <div id="Paris" class="tabcontent">
         <div class="row interview_m__row">
           <div class="col-7 ml-0">
             <a class="interview_col_7_textpart media__video_content__one btn">
@@ -78,6 +86,12 @@
 <script>
 export default {
   name: "MediaFile",
+  mounted() {
+    let paris__btn = document.getElementById("parisbtn");
+    let paris__content = document.getElementById("Paris");
+    paris__btn.className += " active";
+    paris__content.className += " d-block";
+  },
 };
 </script>
 

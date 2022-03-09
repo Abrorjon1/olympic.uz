@@ -46,11 +46,12 @@ $(function () {
   });
 });
 
-function openCity(evt, cityName = "Paris") {
+function openCity(evt, cityName) {
   // Declare all variables
   var i, tabcontent, tablinks;
   // Get all elements with class="tabcontent" and hide them
   tabcontent = document.getElementsByClassName("tabcontent");
+  console.log(evt.target.id);
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
