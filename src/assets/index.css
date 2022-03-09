@@ -454,3 +454,18 @@ hr {
   display: none;
   border-top: none;
 }
+
+.media__video_content__one {
+  background: url("./../../public/images/mediafile/m4.jpg");
+  background-position: center top;
+}
+.media__video_content__two {
+  background: url("./../../public/images/mediafile/m5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.media__video_content__three {
+  background: url("./../../public/images/mediafile/m6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
