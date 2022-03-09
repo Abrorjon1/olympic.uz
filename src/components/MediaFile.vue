@@ -3,17 +3,19 @@
     <div class="container">
       <div class="news__head">
         <h3>MediaFayl</h3>
-        <ul class="nav nav-tabs">
-          <li>
-            <a href="#a" data-toggle="tab">Fotogalereya</a>
-          </li>
-          <li>
-            <a href="#b" data-toggle="tab">Videogalereya</a>
-          </li>
-        </ul>
+        <div class="tab">
+          <button class="tablinks" onclick="openCity(event, 'London')">
+            FotoGaleriya
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'Paris')">
+            VideoGaleriya
+          </button>
+        </div>
       </div>
-      <div class="tab-content">
-        <div class="tab-pane active row interview_m__row" id="a">
+
+      <!-- Tab content -->
+      <div id="London" class="tabcontent">
+        <div class="row interview_m__row">
           <div class="col-7 ml-0">
             <a class="interview_col_7_textpart btn">
               <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
@@ -39,7 +41,10 @@
             </div>
           </div>
         </div>
-        <div class="tab-pane row interview_m__row" id="b">
+      </div>
+
+      <div id="Paris" class="tabcontent">
+        <div class="row interview_m__row">
           <div class="col-7 ml-0">
             <a class="interview_col_7_textpart btn">
               <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>

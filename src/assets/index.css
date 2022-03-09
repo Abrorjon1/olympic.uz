@@ -421,25 +421,33 @@ hr {
   margin: 0;
   display: flex;
 }
-/* .title.media ul li:first-child {
-  margin-left: 0;
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
 }
-.title.media ul li {
-  margin-left: 15px;
-}
-.title.media ul li a.active {
-  border-bottom: 1.4px solid #363c44;
-  opacity: 1;
-  border-radius: unset;
-}
-.title.media ul li a {
-  padding: 6px 0px;
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  float: left;
   border: none;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 24px;
-  color: #363c44;
-  opacity: 0.5;
-  border-bottom: 1.4px solid transparent;
-  margin-left: 12px;
-} */
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:focus,
+.tab button.active {
+  border-bottom: 1px solid #333;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
