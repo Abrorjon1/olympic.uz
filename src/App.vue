@@ -5,6 +5,7 @@
   <Interview />
   <MediaFile />
   <Support />
+  <SportTypes />
 </template>
 
 <script>
@@ -14,10 +15,12 @@ import News from "./components/News.vue";
 import Interview from "./components/Interview.vue";
 import MediaFile from "./components/MediaFile.vue";
 import Support from "./components/Support.vue";
+import SportTypes from "./components/SportTypes.vue";
 
 export default {
   name: "App",
   components: {
+    SportTypes,
     Support,
     MediaFile,
     Interview,

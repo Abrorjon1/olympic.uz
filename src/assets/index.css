@@ -237,6 +237,7 @@ hr {
 .news__head h3 {
   font-size: 30px;
   font-weight: 700;
+  color: #363c44;
 }
 .news__section .row .col-6 img {
   width: 100%;
@@ -474,16 +475,89 @@ hr {
 
 .support__section {
   padding: 40px 0;
+
+  font-family: "Lato", sans-serif;
+}
+.support__section .container {
+  max-width: 1300px;
+}
+
+.support__section .container h3 {
+  margin: 30px 0;
+  font-weight: 700;
+  color: #363c44;
+}
+.support__slider {
+  width: 100%;
+  margin: 0;
 }
 .support__slider .col-md-3 {
-  height: 250px;
+  height: 280px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0px 0px 10px 0px #ccc;
+  box-shadow: 0px 2px 8px rgb(157 165 185 / 20%);
+  border-radius: 1px;
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
 }
 .support__slider .col-md-3 img {
-  width: 70%;
+  width: 100%;
+  height: 85%;
+  object-fit: scale-down;
+}
+.support__slider .col-md-3 h5 {
+  text-align: center;
+}
+
+/* Sport Section  */
+
+.sport__section {
+  padding: 40px 0;
+  font-family: "Lato", sans-serif;
+}
+.sport__section .container {
+  max-width: 1300px;
+}
+.sport__section .container .row:first-child {
+  margin: 0;
+  width: 100%;
+}
+
+.sport__section .container h3 {
+  margin: 30px 0;
+  font-weight: 700;
+  color: #363c44;
+}
+.sport__section .container .row .col-md-3 {
+  display: flex;
+  justify-content: center;
+  border-radius: 1%;
+  padding: 15px;
+  margin: 10px;
+}
+.sport__section .container .row .col-md-3 a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 25px 10px;
+  justify-content: space-around;
+  transition: 0.4s ease all;
+  border: 1px solid rgb(219, 219, 219);
+}
+.sport__section .container .row .col-md-3 a:hover {
+  box-shadow: 0px 2px 8px rgb(157 165 185 / 20%);
+  border-color: transparent;
+}
+.sport_text__box p {
+  color: rgb(167, 167, 167);
+}
+.sport__section .container .row .col-md-3 a .row {
+  justify-content: space-around;
+  align-items: center;
+}
+.sport__section .container .row .col-md-3 a .row .col-md-4:last-child {
+  border-radius: 50%;
+  padding: 0;
+  background: #fff6d9;
 }
