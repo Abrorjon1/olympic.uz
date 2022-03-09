@@ -4,6 +4,7 @@
   <News />
   <Interview />
   <MediaFile />
+  <Support />
 </template>
 
 <script>
@@ -12,10 +13,12 @@ import Banner from "./components/Banner.vue";
 import News from "./components/News.vue";
 import Interview from "./components/Interview.vue";
 import MediaFile from "./components/MediaFile.vue";
+import Support from "./components/Support.vue";
 
 export default {
   name: "App",
   components: {
+    Support,
     MediaFile,
     Interview,
     News,
