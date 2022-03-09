@@ -598,10 +598,13 @@ hr {
   color: #fff;
   margin-top: 30px;
   background: #335fa9;
-  padding: 40px 0 40px;
+  padding: 40px 0 0;
 }
 .footer .container {
   max-width: 1300px;
+}
+.footer__row {
+  margin-bottom: 60px;
 }
 .footer__row:first-child {
   align-items: center;
@@ -691,4 +694,22 @@ hr {
   flex-direction: row;
   color: #fff;
   text-decoration: none;
+}
+.footer__foot {
+  padding: 30px 0;
+  width: 100%;
+  margin: 0;
+  border-top: 1px solid #888;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.footer__foot .col-md-4 p {
+  margin: 0;
+}
+.footer__foot .col-md-4 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }

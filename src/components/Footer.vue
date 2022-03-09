@@ -51,6 +51,17 @@
           <a href="#"><i class="fas fa-location-arrow"></i> Telegram Bot</a>
         </div>
       </div>
+      <div class="row footer__foot">
+        <div class="col-md-6">
+          <figcaption>
+            © 2018 - 2022. O‘zbekiston Milliy Olimpiya Qo‘mitasi | Barcha
+            huquqlar himoyalangan
+          </figcaption>
+        </div>
+        <div class="col-md-4">
+          <p>Sayt yaratuvchisi: Online Service Group</p>
+        </div>
+      </div>
     </div>
   </footer>
 </template>
