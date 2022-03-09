@@ -645,6 +645,20 @@ hr {
 .footer_logo__box .row .col-9 h3 {
   font-size: 18px;
 }
+.social_medias__foter {
+  display: flex;
+  flex-direction: row;
+}
+.social_medias__foter h4 {
+  width: max-content;
+  margin-bottom: 0;
+}
+.social_medias__foter ul {
+  display: flex;
+  align-items: center;
+  width: max-content;
+}
 .social_medias__foter ul li a {
   color: #fff;
+  margin: 0 10px;
 }
