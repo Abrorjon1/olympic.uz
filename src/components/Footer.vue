@@ -20,6 +20,23 @@
               </div>
             </div>
           </div>
+          <div class="row social_medias__foter">
+            <h4>Biz ishtimoiy Tarmoqlarda:</h4>
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-location-arrow"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="col-md-5"></div>
         <div class="col-md-2"></div>
