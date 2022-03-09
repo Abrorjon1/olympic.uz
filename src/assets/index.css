@@ -486,6 +486,7 @@ hr {
   margin: 30px 0;
   font-weight: 700;
   color: #363c44;
+  font-size: 30px;
 }
 .support__slider {
   width: 100%;
@@ -589,4 +590,58 @@ hr {
 }
 .lnr-sun {
   font-weight: 700;
+}
+
+/* Footer ****************************************************** */
+.footer {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  margin-top: 30px;
+  background: #335fa9;
+  padding: 20px 0 40px;
+}
+.footer .container {
+  max-width: 1300px;
+}
+.footer_logo__box {
+  background-color: #335fa9;
+  padding: 15px;
+}
+.footer_logo__box .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer_logo__box .row .col-2 img {
+  height: 80px;
+}
+
+.footer_logo__box .row .col-9 h3 {
+  font-weight: 700;
+  font-size: 18px;
+  padding: 0 50px 0 0;
+}
+.footer_logo__box .row .col-9 {
+  padding: 17px;
+}
+.footer_logo__box .row .col-9 ul {
+  display: flex;
+  flex-direction: row;
+}
+.footer_logo__box .row .col-9 ul li a {
+  font-family: "Museo sans Cyrl 500", sans-serif;
+  font-weight: 400;
+  list-style: none;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.footer_logo__box .row .col-9 ul li a {
+  padding: 5px;
+}
+.footer_logo__box .row .col-9 h3 {
+  font-size: 18px;
 }

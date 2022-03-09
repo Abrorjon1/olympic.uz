@@ -6,6 +6,8 @@
   <MediaFile />
   <Support />
   <SportTypes />
+  <OlympGames />
+  <Footer />
 </template>
 
 <script>
@@ -16,10 +18,14 @@ import Interview from "./components/Interview.vue";
 import MediaFile from "./components/MediaFile.vue";
 import Support from "./components/Support.vue";
 import SportTypes from "./components/SportTypes.vue";
+import OlympGames from "./components/OlympGames.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
   components: {
+    Footer,
+    OlympGames,
     SportTypes,
     Support,
     MediaFile,
