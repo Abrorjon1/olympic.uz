@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class="col-8 align-items-center d-flex">
-          <div class="olympic_links__box">
+          <div class="olympic_links__box row">
             <div class="olympic_links_above__box">
               <ul>
                 <li>
@@ -102,7 +102,7 @@
                   <button class="dropbtn">
                     Jahon <i class="fas fa-chevron-down"></i>
                   </button>
-                  <div class="dropdown-content">
+                  <div class="dropdown-content db_content__last">
                     <a href="#">Link 1</a>
                     <a href="#">Link 2</a>
                     <a href="#">Link 3</a>

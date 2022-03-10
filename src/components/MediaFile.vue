@@ -88,6 +88,7 @@ export default {
   name: "MediaFile",
   mounted() {
     let paris__btn = document.getElementById("parisbtn");
+    console.log(paris__btn);
     let paris__content = document.getElementById("Paris");
     paris__btn.className += " active";
     paris__content.className += " d-block";
