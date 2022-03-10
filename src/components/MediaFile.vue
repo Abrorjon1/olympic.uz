@@ -5,16 +5,18 @@
         <h3>MediaFayl</h3>
         <div class="tab">
           <button
+            :class="{ active: show == false }"
+            @click="show = false"
             class="tablinks"
             id="londonbtn"
-            onclick="openCity(event, 'London')"
           >
             FotoGaleriya
           </button>
           <button
+            :class="{ active: show == true }"
+            @click="show = true"
             class="tablinks"
             id="parisbtn"
-            onclick="openCity(event, 'Paris')"
           >
             VideoGaleriya
           </button>
@@ -22,7 +24,8 @@
       </div>
 
       <!-- Tab content -->
-      <div id="London" class="tabcontent">
+
+      <div v-if="show == false" id="London" class="tabcontent">
         <div class="row interview_m__row">
           <div class="col-7 ml-0">
             <a class="interview_col_7_textpart btn">
@@ -50,8 +53,7 @@
           </div>
         </div>
       </div>
-
-      <div id="Paris" class="tabcontent">
+      <div v-else id="Paris" class="tabcontent">
         <div class="row interview_m__row">
           <div class="col-7 ml-0">
             <a class="interview_col_7_textpart media__video_content__one btn">
@@ -86,13 +88,18 @@
 <script>
 export default {
   name: "MediaFile",
-  mounted() {
-    let paris__btn = document.getElementById("parisbtn");
-    console.log(paris__btn);
-    let paris__content = document.getElementById("Paris");
-    paris__btn.className += " active";
-    paris__content.className += " d-block";
+  data() {
+    return {
+      show: true,
+    };
   },
+  // mounted() {
+  //   let paris__btn = document.getElementById("parisbtn");
+  //   console.log(paris__btn);
+  //   let paris__content = document.getElementById("Paris");
+  //   paris__btn.className += " active";
+  //   paris__content.className += " d-block";
+  // },
 };
 </script>
 
