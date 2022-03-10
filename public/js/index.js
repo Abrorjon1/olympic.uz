@@ -4,9 +4,13 @@ $(function () {
     infinite: true,
     fade: true,
     speed: 300,
-    // autoplay:true,
+    draggable: true,
+    arrows: false,
+    autoplay: true,
     slidesToShow: 1,
     adaptiveHeight: true,
+    cssEase: "ease-in-out",
+    touchThreshold: 100,
   });
 });
 

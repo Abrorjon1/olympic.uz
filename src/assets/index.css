@@ -203,6 +203,14 @@ ul {
   width: 100%;
   top: 20vh;
   left: 0;
+  transform: translateY(-80px);
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+}
+.slick-active .banner_item__text {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
 }
 .banner_item__text .container {
   padding: 0 12px;
