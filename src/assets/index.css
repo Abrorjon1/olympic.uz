@@ -133,16 +133,16 @@ ul {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #e9eef5;
   min-width: 160px;
   top: 100%;
-  border-radius: 2%;
+  border-radius: 1%;
   box-shadow: 0px 10px 16px 0px rgba(39, 39, 39, 0.2);
   z-index: 1;
 }
 .db_content__last {
   position: absolute;
-  right: -2.7vw;
+  right: -3.52vw;
 }
 .dropdown-content a {
   color: black;
@@ -150,10 +150,7 @@ ul {
   text-decoration: none;
   display: block;
 }
-.olympic_links__box:hover
-  .olympic_links_bottom__box
-  .dropdown:hover
-  .dropdown-content {
+.dropdown:hover .dropdown-content {
   display: block;
 }
 
