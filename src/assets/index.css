@@ -170,7 +170,6 @@ ul {
 .banner .container {
   max-width: 1300px;
   position: relative;
-  padding: 0 12px;
 }
 .banner__wrapper {
   display: flex;
@@ -205,6 +204,9 @@ ul {
   top: 20vh;
   left: 0;
 }
+.banner_item__text .container {
+  padding: 0 12px;
+}
 .banner_item__text h3 {
   font-weight: 700;
   font-size: 45px;
@@ -231,7 +233,7 @@ ul {
   height: 100%;
   width: 100%;
   position: relative;
-  padding: 0 12px;
+  margin: 0;
 }
 .banner_footer__item {
   font-family: "Roboto", sans-serif;
