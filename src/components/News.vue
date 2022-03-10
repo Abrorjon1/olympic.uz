@@ -13,8 +13,8 @@
             data-bs-ride="carousel"
           >
             <div class="carousel-inner">
-              <div class="carousel-item active news__slide">
-                <img src="./../../public/images/news/n1.jpg" alt="" />
+              <div class="carousel-item active news__slide" data-id="21">
+                <img src="./../../public/images/news/n1.jpg" />
                 <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
                 <h4>
                   Aziz ayollar, muhtaram opa-singillar, bayramingiz muborak
@@ -24,10 +24,11 @@
                   O‘zbekiston Milliy Olimpiya qo‘mitasi Sizlarni 8 mart –
                   Xalqaro xotin-qizlar kuni
                 </figcaption>
+                <span class="img__id">1</span>
               </div>
 
-              <div class="carousel-item news__slide">
-                <img src="./../../public/images/news/n3.jpg" alt="" />
+              <div class="carousel-item news__slide" data-id="2">
+                <img src="./../../public/images/news/n3.jpg" />
                 <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
                 <h4>
                   Suvga sakrash. Hamyurtlarimiz Yevrosiyo kubogida sovrindor
@@ -37,9 +38,10 @@
                   Suvga sakrash bo‘yicha O‘zbekiston terma jamoasi a’zolari
                   birinchi bor tashkil
                 </figcaption>
+                <span class="img__id">2</span>
               </div>
-              <div class="carousel-item news__slide">
-                <img src="./../../public/images/news/n2.jpg" alt="" />
+              <div class="carousel-item news__slide" data-id="3">
+                <img src="./../../public/images/news/n2.jpg" />
                 <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
                 <h4>
                   Sportni rivojlantirish vaziri O‘zbekiston dzyudo
@@ -49,6 +51,7 @@
                   Sportni rivojlantirish vaziri Adham Ikramov O‘zbekiston dzyudo
                   federatsiyasida bo‘lib, u
                 </figcaption>
+                <span class="img__id">3</span>
               </div>
             </div>
             <div class="btns__box">
@@ -61,7 +64,7 @@
                 <i class="fas fa-chevron-left"></i>
               </button>
               <div class="slider_counter">
-                <span class="first__count">2 /</span>
+                <span class="first__count">1 /</span>
                 <span class="overall__count">3</span>
               </div>
               <button
@@ -136,7 +139,23 @@
 <script>
 export default {
   name: "News",
+  mounted() {
+    let btns = document.querySelectorAll("#carouselExampleControls");
+    btns.forEach((e) => {
+      e.addEventListener("click", (ev) => {
+        console.log(ev.path[2]);
+      });
+    });
+  },
 };
+// methods: {
+//   find_img: () => {
+//     let btns = document.querySelectorAll("#carouselExampleControls");
+//     btns.addEventListener("click", (e) => {
+//       console.log(e);
+//     });
+//   };
+// }
 </script>
 
 <style scoped></style>
