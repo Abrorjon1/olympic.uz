@@ -38,7 +38,7 @@
         <div class="banner_item__text">
           <div class="container">
             <p><i class="lnr lnr-history"></i> 13 Yanvar 2022</p>
-            <h3>
+            <h3 class="qilichbozlik__h3">
               osh qilichbozlarimiz Osiyo chempionatini 15 ta medal bilan
               yakunlashdi!
             </h3>
