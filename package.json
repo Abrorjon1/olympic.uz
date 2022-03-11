@@ -11,8 +11,8 @@
     "core-js": "^3.6.5",
     "owl.carousel": "^2.3.4",
     "swiper": "^5.4.5",
-    "vue": "^2.0.0",
-    "vue-awesome-swiper": "^4.1.1"
+    "vue": "^3.0.0",
+    "vue-template-compiler": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.15",
