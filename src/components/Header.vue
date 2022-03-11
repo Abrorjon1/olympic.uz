@@ -37,7 +37,13 @@
                   <a href="#"><i class="fas fa-image"></i> Mediya Galeriya</a>
                 </li>
                 <li>
-                  <a href="#"><i class="fas fa-search"></i> Izlash</a>
+                  <a
+                    type="button"
+                    href="#"
+                    data-toggle="modal"
+                    data-target="#exampleModal"
+                    ><i class="fas fa-search"></i> Izlash</a
+                  >
                 </li>
               </ul>
               <ul>
@@ -115,6 +121,28 @@
       </div>
     </div>
   </header>
+  <!-- Modal Search  -->
+  <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <form>
+            <input type="text" placeholder="Search..." />
+            <button class="btn" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>

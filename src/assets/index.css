@@ -153,7 +153,85 @@ ul {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.modal.fade .modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal-body {
+  font-family: "Lato", sans-serif;
+  width: 600px;
+  height: 50px;
+  padding: 0 !important;
+  padding: 47px;
+  position: relative;
+  flex: 1 1 auto;
+  padding: 1rem;
+}
+.modal {
+  cursor: url("./../../public/images/icons/cursor.png"), auto;
+  /* -webkit-transform: scale(0.2, 0.2);
+  -moz-transform: scale(0.2, 0.2);
+  -ms-transform: scale(0.2, 0.2);
+  -o-transform: scale(0.2, 0.2);
+  -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1);
+  -khtml-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1);
+  -moz-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1);
+  -ms-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1);
+  -o-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 1, 1); */
+}
+.modal-body form {
+  width: 100%;
 
+  display: flex;
+}
+
+.modal-body form input:hover,
+.modal-body form input:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+.modal-body form input {
+  /* line-height: 40px; */
+  padding-left: 20px;
+  background: #fff;
+  color: #999;
+  font-size: 20px;
+  font-style: italic;
+  outline: none;
+  box-shadow: none;
+  margin: 0;
+  width: 80%;
+  background: #fff;
+  border: navajowhite;
+  padding: 10px;
+}
+
+.modal-body form button:hover {
+  color: #fff;
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+.modal-body form button {
+  border: none;
+  border-radius: 0%;
+  height: 50px !important;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  color: #fff;
+  background: #074db6;
+}
 /* dropdown buttons end  */
 
 /* Baner section  */
