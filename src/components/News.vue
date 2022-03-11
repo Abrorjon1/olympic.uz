@@ -22,8 +22,12 @@
                 </h4>
                 <figcaption>
                   O‘zbekiston Milliy Olimpiya qo‘mitasi Sizlarni 8 mart –
-                  Xalqaro xotin-qizlar kuni
+                  Xalqaro xotin-qizlar kuni uchun
                 </figcaption>
+                <div class="slider_counter abm">
+                  <span class="first__count">1 /</span>
+                  <span class="overall__count">3</span>
+                </div>
                 <span class="img__id">1</span>
               </div>
 
@@ -38,6 +42,10 @@
                   Suvga sakrash bo‘yicha O‘zbekiston terma jamoasi a’zolari
                   birinchi bor tashkil
                 </figcaption>
+                <div class="slider_counter">
+                  <span class="first__count">2 /</span>
+                  <span class="overall__count">3</span>
+                </div>
                 <span class="img__id">2</span>
               </div>
               <div class="carousel-item news__slide" data-id="3">
@@ -49,14 +57,17 @@
                 </h4>
                 <figcaption>
                   Sportni rivojlantirish vaziri Adham Ikramov O‘zbekiston dzyudo
-                  federatsiyasida bo‘lib, u
+                  federatsiyasida bo‘lib
                 </figcaption>
+                <div class="slider_counter abm">
+                  <span class="first__count">3 /</span>
+                  <span class="overall__count">3</span>
+                </div>
                 <span class="img__id">3</span>
               </div>
             </div>
             <div class="btns__box">
               <button
-                @click="btn_func(event)"
                 class="carousel-control-prev"
                 type="button"
                 id="cc__btns"
@@ -65,12 +76,7 @@
               >
                 <i class="fas fa-chevron-left"></i>
               </button>
-              <div class="slider_counter">
-                <span class="first__count">1 /</span>
-                <span class="overall__count">3</span>
-              </div>
               <button
-                @click="btn_func(event)"
                 class="carousel-control-next"
                 type="button"
                 data-bs-target="#carouselExampleControls"
@@ -136,25 +142,14 @@
           </div>
         </div>
       </div>
-      <!-- <swiper ref="mySwiper" :options="swiperOptions">
-        <swiper-slide>Slide 1</swiper-slide>
-        <swiper-slide>Slide 2</swiper-slide>
-        <swiper-slide>Slide 3</swiper-slide>
-        <swiper-slide>Slide 4</swiper-slide>
-        <swiper-slide>Slide 5</swiper-slide>
-        <div class="swiper-pagination" slot="pagination"></div>
-      </swiper> -->
     </div>
   </section>
 </template>
 
 <script>
-// import { Swiper, SwiperSlide, directive } from "vue-awesome-swiper";
-// import "swiper/css/swiper.css";
-
 export default {
   name: "News",
-  }
+};
 </script>
 
 <style scoped></style>

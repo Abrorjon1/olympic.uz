@@ -312,7 +312,11 @@ hr {
   font-family: "Lato", sans-serif;
   margin: 20px 10px;
   position: relative;
-  left: 3vh;
+  left: 8vh;
+}
+
+.slider_counter.abm {
+  margin: 36px 10px;
 }
 .first__count,
 .overall__count {
@@ -347,10 +351,11 @@ hr {
   color: #0754c8;
 }
 .carousel-control-next {
-  left: 6vh;
+  left: 11vh;
 }
 .carousel-inner {
   height: 640px;
+  overflow: unset;
 }
 
 .carousel-item img {
