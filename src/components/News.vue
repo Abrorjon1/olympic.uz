@@ -13,7 +13,7 @@
             data-bs-ride="carousel"
           >
             <div class="carousel-inner">
-              <div class="carousel-item active news__slide" data-id="21">
+              <div class="carousel-item active news__slide" data-id="1">
                 <img src="./../../public/images/news/n1.jpg" />
                 <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
                 <h4>
@@ -56,22 +56,26 @@
             </div>
             <div class="btns__box">
               <button
+                @click="btn_func(event)"
                 class="carousel-control-prev"
                 type="button"
+                id="cc__btns"
                 data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev"
               >
                 <i class="fas fa-chevron-left"></i>
               </button>
               <div class="slider_counter">
-                <span class="first__count">1 /</span>
+                <span class="first__count">{{ this.id }} /</span>
                 <span class="overall__count">3</span>
               </div>
               <button
+                @click="btn_func(event)"
                 class="carousel-control-next"
                 type="button"
                 data-bs-target="#carouselExampleControls"
                 data-bs-slide="next"
+                id="cc__btns"
               >
                 <i class="fas fa-chevron-right"></i>
               </button>
@@ -132,30 +136,53 @@
           </div>
         </div>
       </div>
+      <swiper ref="mySwiper" :options="swiperOptions">
+        <swiper-slide>Slide 1</swiper-slide>
+        <swiper-slide>Slide 2</swiper-slide>
+        <swiper-slide>Slide 3</swiper-slide>
+        <swiper-slide>Slide 4</swiper-slide>
+        <swiper-slide>Slide 5</swiper-slide>
+        <div class="swiper-pagination" slot="pagination"></div>
+      </swiper>
     </div>
   </section>
 </template>
 
 <script>
+import { Swiper, SwiperSlide, directive } from "vue-awesome-swiper";
+import "swiper/css/swiper.css";
+
 export default {
   name: "News",
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  directives: {
+    swiper: directive,
+  },
+  data() {
+    return {
+      id: 1,
+      swiperOptions: {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        // Some Swiper option/callback...
+      },
+    };
+  },
+  computed: {
+    swiper() {
+      return this.$refs.mySwiper.$swiper;
+    },
+  },
   mounted() {
-    let btns = document.querySelectorAll("#carouselExampleControls");
-    btns.forEach((e) => {
-      e.addEventListener("click", (ev) => {
-        console.log(ev.path[2]);
-      });
-    });
+    console.log("Current Swiper instance object", this.swiper);
+    this.swiper.slideTo(3, 1000, false);
   },
 };
-// methods: {
-//   find_img: () => {
-//     let btns = document.querySelectorAll("#carouselExampleControls");
-//     btns.addEventListener("click", (e) => {
-//       console.log(e);
-//     });
-//   };
-// }
+Vue.use(window.VueAwesomeSwiper);
 </script>
 
 <style scoped></style>
