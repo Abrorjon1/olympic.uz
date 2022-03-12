@@ -161,7 +161,7 @@ ul {
 }
 .db_content__last {
   position: absolute;
-  right: -3.52vw;
+  right: 0;
 }
 .dropdown-content a {
   color: black;
@@ -883,4 +883,29 @@ hr {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+/* Responsive Part of Site ***************************************************************** */
+@media only screen and (max-width: 1200px) {
+  .olympic_links_above__box {
+    justify-content: space-between;
+  }
+  .olympic_links_above__box ul li a span {
+    display: none;
+  }
+
+  .olympic_links_above__box ul:first-child {
+    justify-content: start;
+    width: 40%;
+  }
+  .olympic_links_above__box ul:first-child li {
+    margin-right: 1%;
+  }
+
+  .olympic_links_above__box ul:last-child {
+    width: 50%;
+  }
+  .olympic_links_above__box ul:last-child li a {
+    font-size: 13px;
+  }
 }
