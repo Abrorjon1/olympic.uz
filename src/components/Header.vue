@@ -27,14 +27,20 @@
               <ul>
                 <li>
                   <a href="#"
-                    ><i class="fas fa-headset"></i> Virtual Qabulxona</a
+                    ><i class="fas fa-headset"></i>
+                    <span>Virtual Qabulxona</span></a
                   >
                 </li>
                 <li>
-                  <a href="#"><i class="fas fa-volume-up"></i> E'lonlar</a>
+                  <a href="#"
+                    ><i class="fas fa-volume-up"></i> <span>E'lonlar</span></a
+                  >
                 </li>
                 <li>
-                  <a href="#"><i class="fas fa-image"></i> Mediya Galeriya</a>
+                  <a href="#"
+                    ><i class="fas fa-image"></i>
+                    <span>Mediya Galeriya</span></a
+                  >
                 </li>
                 <li>
                   <a
@@ -42,7 +48,7 @@
                     href="#"
                     data-toggle="modal"
                     data-target="#exampleModal"
-                    ><i class="fas fa-search"></i> Izlash</a
+                    ><i class="fas fa-search"></i> <span>Izlash</span></a
                   >
                 </li>
               </ul>
