@@ -1214,6 +1214,19 @@ hr {
   .banner_footer__item h3 {
     font-size: 14px;
   }
+  .modal.fade .modal-dialog {
+    width: 85%;
+  }
+  .modal-body {
+    width: 100%;
+  }
+  .modal-body form {
+    display: flex;
+    justify-content: space-between;
+  }
+  .modal-body form input {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -1286,5 +1299,8 @@ hr {
   }
   .olympic_logo__box .row .col-sm-3 img {
     width: 30%;
+  }
+  .modal-body form input {
+    font-size: 16px;
   }
 }
