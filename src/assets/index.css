@@ -1220,6 +1220,16 @@ hr {
   .header__row {
     flex-direction: column;
   }
+  .banner__wrapper,
+  .banner__wrapper .slick-list,
+  .banner__wrapper .slick-list .slick-track {
+    height: 100% !important;
+  }
+  .banner_item__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
   .olympic_links__box {
     justify-content: space-between;
     flex-direction: row;
@@ -1242,7 +1252,27 @@ hr {
     justify-content: end;
     width: 10%;
   }
-
+  .banner_item__text {
+    top: 26vh;
+  }
+  .banner_item__text h3 {
+    font-size: 20px;
+    margin: 19px 0;
+  }
+  .banner_item__text button {
+    padding: 5px 20px;
+    font-size: 14px;
+  }
+  .banner__footer {
+    height: 30vh;
+    bottom: 11vh;
+  }
+  .bf_item {
+    padding: 20px 15px;
+  }
+  .banner_footer__item h3 {
+    font-size: 22px;
+  }
   .olympic_logo__box .row {
     justify-content: center;
   }
