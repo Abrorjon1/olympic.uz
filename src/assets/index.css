@@ -29,6 +29,7 @@ ul {
 .olympic_logo__box .row {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .olympic_logo__box .row .col-3 img {
   width: 100%;
@@ -1017,5 +1018,61 @@ hr {
   .offcanvas-body ul li a:active,
   .offcanvas-body ul li a:hover {
     color: #888;
+  }
+
+  .olympic_logo__box .row .col-9 h3 {
+    font-size: 14px;
+  }
+  .olympic_logo__box .row .col-9 ul li a {
+    padding: 0;
+    margin-right: 5px;
+    font-size: 10px;
+  }
+  .olympic_links_above__box ul:last-child li a {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header .col-sm-6 {
+    margin-right: 30px;
+  }
+  .olympic_links_above__box ul:last-child {
+    display: none;
+  }
+  .olympic_links_above__box ul:first-child {
+    margin-right: 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .olympic_links_above__box ul:first-child li {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .header__row {
+    flex-direction: column;
+  }
+  .olympic_links__box {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  header .col-sm-6 {
+    padding: 0px 80px;
+  }
+  .olympic_links__box {
+    margin: 10px auto 0;
+    padding: 15px 0;
+  }
+  .olympic_links__box hr {
+    display: none;
+  }
+  .olympic_links_above__box {
+    justify-content: space-between;
+    width: 40%;
+  }
+  .olympic_links_bottom__box {
+    justify-content: end;
+    width: 10%;
   }
 }

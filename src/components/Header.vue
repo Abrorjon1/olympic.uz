@@ -2,7 +2,7 @@
   <header class="header">
     <div class="container">
       <div class="row header_row">
-        <div class="col-4">
+        <div class="col-md-4 col-sm-6">
           <div class="olympic_logo__box">
             <div class="row">
               <div class="col-3">
@@ -21,7 +21,7 @@
             </div>
           </div>
         </div>
-        <div class="col-8 align-items-center d-flex">
+        <div class="col-md-8 col-sm-5 p-sm-0 align-items-center d-flex">
           <div class="olympic_links__box row">
             <div class="olympic_links_above__box">
               <ul>
