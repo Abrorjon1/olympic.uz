@@ -100,34 +100,33 @@
                   </a>
                 </div>
                 <div class="offcanvas-body">
-                  <div>
-                    Some text as placeholder. In real life you can have the
-                    elements you have chosen. Like, text, images, lists, etc.
-                  </div>
-                  <div class="dropdown mt-3">
-                    <button
-                      class="btn btn-secondary dropdown-toggle"
-                      type="button"
-                      id="dropdownMenuButton"
-                      data-bs-toggle="dropdown"
-                    >
-                      Dropdown button
-                    </button>
-                    <ul
-                      class="dropdown-menu"
-                      aria-labelledby="dropdownMenuButton"
-                    >
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li>
-                        <a class="dropdown-item" href="#">Another action</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#"
-                          >Something else here</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
+                  <ul>
+                    <li>
+                      <a href="#"
+                        >O'zbekiston MOQ <i class="lnr lnr-chevron-right"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Yangiliklar <i class="lnr lnr-chevron-right"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Federatsiyalar <i class="lnr lnr-chevron-right"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >O'yinlar <i class="lnr lnr-chevron-right"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Jahon Arenasi <i class="lnr lnr-chevron-right"></i
+                      ></a>
+                    </li>
+                  </ul>
                 </div>
               </div>
               <ul>
