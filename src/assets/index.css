@@ -932,4 +932,45 @@ hr {
     color: #fff;
     background: #0c3c78;
   }
+  .offcanvas-header {
+    flex-direction: column;
+    padding: 0;
+  }
+  .offcanvas-header .row {
+    width: 100%;
+  }
+
+  .offcanvas-header .row:first-child {
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+  }
+
+  .offcanvas-title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease all;
+  }
+  .canvas__links {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease all;
+  }
+  .canvas__links:active .offcanvas-title:active {
+    color: #888;
+  }
+  .offcanvas-header ul {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
 }

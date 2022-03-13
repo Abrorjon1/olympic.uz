@@ -85,15 +85,22 @@
                 aria-labelledby="offcanvasExampleLabel"
               >
                 <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">
-                    Offcanvas
-                  </h5>
-                  <button
-                    type="button"
-                    class="btn-close text-reset"
-                    data-bs-dismiss="offcanvas"
-                    aria-label="Close"
-                  ></button>
+                  <div class="row">
+                    <ul class="canvas-header">
+                      <li><a class="canvas__links" href="#">Ру</a></li>
+                      <li><a class="canvas__links" href="#">Ўз</a></li>
+                      <li><a class="canvas__links" href="#">Eng</a></li>
+                    </ul>
+                    <button
+                      type="button"
+                      class="btn-close text-reset"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <a class="offcanvas-title" id="offcanvasExampleLabel">
+                    Menyu
+                  </a>
                 </div>
                 <div class="offcanvas-body">
                   <div>
