@@ -31,17 +31,17 @@ ul {
   flex-direction: row;
   align-items: center;
 }
-.olympic_logo__box .row .col-3 img {
+.olympic_logo__box .row .col-sm-3 img {
   width: 100%;
 }
-.olympic_logo__box .row .col-9 {
+.olympic_logo__box .row .col-sm-9 {
   padding: 17px;
 }
-.olympic_logo__box .row .col-9 ul {
+.olympic_logo__box .row .col-sm-9 ul {
   display: flex;
   flex-direction: row;
 }
-.olympic_logo__box .row .col-9 ul li a {
+.olympic_logo__box .row .col-sm-9 ul li a {
   font-family: "Museo sans Cyrl 500", sans-serif;
   font-weight: 400;
   list-style: none;
@@ -52,10 +52,10 @@ ul {
   margin-right: 10px;
   text-decoration: none;
 }
-.olympic_logo__box .row .col-9 ul li a {
+.olympic_logo__box .row .col-sm-9 ul li a {
   padding: 5px;
 }
-.olympic_logo__box .row .col-9 h3 {
+.olympic_logo__box .row .col-sm-9 h3 {
   font-size: 18px;
 }
 .olympic_links__box {
@@ -1146,10 +1146,10 @@ hr {
     color: #888;
   }
 
-  .olympic_logo__box .row .col-9 h3 {
+  .olympic_logo__box .row .col-sm-9 h3 {
     font-size: 14px;
   }
-  .olympic_logo__box .row .col-9 ul li a {
+  .olympic_logo__box .row .col-sm-9 ul li a {
     padding: 0;
     margin-right: 5px;
     font-size: 10px;
@@ -1205,18 +1205,14 @@ hr {
     font-size: 16px;
   }
   .banner__footer {
-    height: 30vh;
-    bottom: 23vh;
+    height: 22vh;
+    bottom: 41vh;
   }
   .bf_item {
-    padding: 15px;
+    padding: 11px;
   }
   .banner_footer__item h3 {
-    font-size: 13px;
-  }
-  .banner__footer {
-    height: 24vh;
-    bottom: 39vh;
+    font-size: 14px;
   }
 }
 
@@ -1245,5 +1241,20 @@ hr {
   .olympic_links_bottom__box {
     justify-content: end;
     width: 10%;
+  }
+
+  .olympic_logo__box .row {
+    justify-content: center;
+  }
+  .olympic_logo__box .row .col-sm-3,
+  .olympic_logo__box .row .col-sm-9 {
+    padding: 0;
+  }
+  .olympic_logo__box .row .col-sm-3 a {
+    justify-content: center;
+    display: flex;
+  }
+  .olympic_logo__box .row .col-sm-3 img {
+    width: 30%;
   }
 }

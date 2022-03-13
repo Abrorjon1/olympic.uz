@@ -5,12 +5,12 @@
         <div class="col-md-4 col-sm-6">
           <div class="olympic_logo__box">
             <div class="row">
-              <div class="col-3">
+              <div class="col-4 col-sm-3">
                 <a href="#" class="header__brand">
                   <img src="./../../public/images/navbar/logo.png" alt="" />
                 </a>
               </div>
-              <div class="col-9">
+              <div class="col-4 col-sm-9">
                 <h3>O‘zbekiston Milliy Olimpiya Qo‘mitasi</h3>
                 <ul>
                   <li><a href="#">CITIUS</a></li>
