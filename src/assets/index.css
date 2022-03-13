@@ -60,6 +60,7 @@ ul {
 }
 .olympic_links__box {
   display: flex;
+  margin: 0 auto;
   flex-direction: column;
   height: 100%;
   justify-content: center;
@@ -332,7 +333,7 @@ ul {
   height: 25vh;
   z-index: 1;
   width: 100%;
-  bottom: 17vh;
+  bottom: 14vh;
 }
 .banner__footer .container {
   height: 100%;
@@ -1156,6 +1157,24 @@ hr {
   .olympic_links_above__box ul:last-child li a {
     font-size: 12px;
   }
+  .banner__footer {
+    height: 30vh;
+    bottom: 22vh;
+  }
+  .banner_item__text {
+    top: 14vh;
+  }
+  .banner_footer__item h3 {
+    font-size: 19px;
+  }
+  .banner_item__text h3 {
+    font-weight: 700;
+    font-size: 38px;
+    margin: 30px 0;
+  }
+  .bf_item {
+    padding: 14px;
+  }
 }
 @media only screen and (max-width: 768px) {
   header .col-sm-6 {
@@ -1171,6 +1190,33 @@ hr {
   }
   .olympic_links_above__box ul:first-child li {
     margin-right: 0;
+  }
+  .banner_item__text {
+    top: 9vh;
+  }
+  .banner_item__text h3 {
+    font-weight: 700;
+    font-size: 27px;
+    margin: 22px 0;
+  }
+  .banner_item__text button {
+    font-weight: 700;
+    padding: 5px 22px;
+    font-size: 16px;
+  }
+  .banner__footer {
+    height: 30vh;
+    bottom: 23vh;
+  }
+  .bf_item {
+    padding: 15px;
+  }
+  .banner_footer__item h3 {
+    font-size: 13px;
+  }
+  .banner__footer {
+    height: 24vh;
+    bottom: 39vh;
   }
 }
 

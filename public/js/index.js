@@ -6,7 +6,7 @@ $(function () {
     speed: 300,
     draggable: true,
     arrows: false,
-    autoplay: true,
+    // autoplay: true,
     slidesToShow: 1,
     adaptiveHeight: true,
     cssEase: "ease-in-out",
