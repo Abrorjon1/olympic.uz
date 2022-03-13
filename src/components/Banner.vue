@@ -64,51 +64,51 @@
     <div class="banner__footer">
       <div class="container">
         <div class="banner_foter__box row">
-          <div class="banner_footer__item col-3">
+          <a class="banner_footer__item col-3 btn">
+            <p><i class="lnr lnr-history"></i> 23 Aprel 2022</p>
+            <hr />
+            <h3>MOQ ayollar jamoasiga ehtirom ko‘rsatildi</h3>
+          </a>
+          <a class="banner_footer__item col-3 btn">
             <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
             <hr />
             <h3>MOQ ayollar jamoasiga ehtirom ko‘rsatildi</h3>
-          </div>
-          <div class="banner_footer__item col-3">
+          </a>
+          <a class="banner_footer__item col-3 btn">
             <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
             <hr />
             <h3>MOQ ayollar jamoasiga ehtirom ko‘rsatildi</h3>
-          </div>
-          <div class="banner_footer__item col-3">
+          </a>
+          <a class="banner_footer__item col-3 btn">
             <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
             <hr />
             <h3>MOQ ayollar jamoasiga ehtirom ko‘rsatildi</h3>
-          </div>
-          <div class="banner_footer__item col-3">
+          </a>
+          <a class="banner_footer__item col-3 btn">
             <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
             <hr />
             <h3>MOQ ayollar jamoasiga ehtirom ko‘rsatildi</h3>
-          </div>
-          <div class="banner_footer__item col-3">
+          </a>
+          <a class="banner_footer__item col-3 btn">
             <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
             <hr />
             <h3>MOQ ayollar jamoasiga ehtirom ko‘rsatildi</h3>
-          </div>
-          <div class="banner_footer__item col-3">
+          </a>
+          <a class="banner_footer__item col-3 btn">
             <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
             <hr />
             <h3>MOQ ayollar jamoasiga ehtirom ko‘rsatildi</h3>
-          </div>
-          <div class="banner_footer__item col-3">
+          </a>
+          <a class="banner_footer__item col-3 btn">
             <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
             <hr />
             <h3>MOQ ayollar jamoasiga ehtirom ko‘rsatildi</h3>
-          </div>
-          <div class="banner_footer__item col-3">
+          </a>
+          <a class="banner_footer__item col-3 btn">
             <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
             <hr />
             <h3>MOQ ayollar jamoasiga ehtirom ko‘rsatildi</h3>
-          </div>
-          <div class="banner_footer__item col-3">
-            <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
-            <hr />
-            <h3>MOQ ayollar jamoasiga ehtirom ko‘rsatildi</h3>
-          </div>
+          </a>
         </div>
       </div>
     </div>
