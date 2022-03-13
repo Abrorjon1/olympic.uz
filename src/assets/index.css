@@ -929,6 +929,7 @@ hr {
     display: none;
   }
   .offcanvas {
+    font-family: "Lato", sans-serif;
     color: #fff;
     background: #0c3c78;
   }
@@ -957,6 +958,9 @@ hr {
     text-decoration: none;
     transition: 0.3s ease all;
   }
+  .offcanvas-header .btn-close {
+    color: #fff !important;
+  }
   .canvas__links {
     color: #fff;
     text-decoration: none;
@@ -964,6 +968,12 @@ hr {
   }
   .canvas__links:active .offcanvas-title:active {
     color: #888;
+  }
+  .xmark__btn {
+    width: max-content;
+    color: #fff;
+    text-decoration: none;
+    padding: 0;
   }
   .offcanvas-header ul {
     display: flex;

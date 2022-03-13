@@ -91,12 +91,9 @@
                       <li><a class="canvas__links" href="#">Ўз</a></li>
                       <li><a class="canvas__links" href="#">Eng</a></li>
                     </ul>
-                    <button
-                      type="button"
-                      class="btn-close text-reset"
-                      data-bs-dismiss="offcanvas"
-                      aria-label="Close"
-                    ></button>
+                    <a class="xmark__btn" data-bs-dismiss="offcanvas"
+                      ><i class="lnr lnr-cross"></i
+                    ></a>
                   </div>
                   <a class="offcanvas-title" id="offcanvasExampleLabel">
                     Menyu
