@@ -6,6 +6,14 @@ header {
 header .container {
   max-width: 1300px;
 }
+.hamburger__btn {
+  text-decoration: none;
+  color: #929dad;
+  display: none;
+}
+.hamburger__btn:active {
+  color: rgb(63, 62, 62);
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -907,5 +915,21 @@ hr {
   }
   .olympic_links_above__box ul:last-child li a {
     font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .hamburger__btn {
+    display: flex;
+  }
+  .olympic_links_bottom__box {
+    justify-content: end;
+  }
+  .olympic_links_bottom__box ul {
+    display: none;
+  }
+  .offcanvas {
+    color: #fff;
+    background: #0c3c78;
   }
 }
