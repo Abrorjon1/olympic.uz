@@ -347,10 +347,135 @@ ul {
   font-family: "Roboto", sans-serif;
   color: #fff;
   border: 1px solid #ccc;
+  padding: 0;
+  margin: 10px 20px 10px 0;
+  text-align: left;
+}
+
+.banner_footer__item_b,
+.banner_footer__item_a,
+.banner_footer__item_c,
+.banner_footer__item_d,
+.banner_footer__item_e,
+.banner_footer__item_f,
+.banner_footer__item_g,
+.banner_footer__item_h,
+.banner_footer__item_i {
+  opacity: 0.95;
+  transform: scale(0.95, 0.95);
+  webkit-transform: scale(0.95, 0.95) !important;
+  transition: all 0.3s ease;
+  width: 100%;
+  height: 100%;
   padding: 24px;
 }
-.banner_footer__item {
-  margin: 10px 20px 10px 0;
+.banner_footer__item_a:hover {
+  color: #fff;
+  opacity: 1;
+  -webkit-backface-visibility: hidden;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transform: translate3d(0, 0, 0);
+  background: url("./../../public/images/mediafile/m5.jpg");
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: cover !important;
+}
+.banner_footer__item_b:hover {
+  color: #fff;
+  opacity: 1;
+  -webkit-backface-visibility: hidden;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transform: translate3d(0, 0, 0);
+  background: url("./../../public/images/mediafile/m6.jpg");
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: cover !important;
+}
+.banner_footer__item_c:hover {
+  color: #fff;
+  opacity: 1;
+  -webkit-backface-visibility: hidden;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transform: translate3d(0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: cover !important;
+  background: url("./../../public/images/mediafile/m3.jpg");
+}
+.banner_footer__item_d:hover {
+  color: #fff;
+  opacity: 1;
+  -webkit-backface-visibility: hidden;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transform: translate3d(0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: cover !important;
+  background: url("./../../public/images/mediafile/m4.jpg");
+}
+.banner_footer__item_e:hover {
+  color: #fff;
+  opacity: 1;
+  -webkit-backface-visibility: hidden;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transform: translate3d(0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: cover !important;
+  background: url("./../../public/images/interview/i1.jpg");
+}
+.banner_footer__item_f:hover {
+  color: #fff;
+  opacity: 1;
+  -webkit-backface-visibility: hidden;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transform: translate3d(0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: cover !important;
+  background: url("./../../public/images/interview/i3.jpg");
+}
+.banner_footer__item_g:hover {
+  color: #fff;
+  opacity: 1;
+  -webkit-backface-visibility: hidden;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transform: translate3d(0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: cover !important;
+  background: url("./../../public/images/news/n2.jpg");
+}
+.banner_footer__item_h:hover {
+  color: #fff;
+  opacity: 1;
+  -webkit-backface-visibility: hidden;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transform: translate3d(0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: cover !important;
+  background: url("./../../public/images/news/n3.jpg");
+}
+.banner_footer__item_i:hover {
+  color: #fff;
+  opacity: 1;
+  -webkit-backface-visibility: hidden;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transform: translate3d(0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: cover !important;
+  background: url("./../../public/images/news/n4.jpg");
 }
 .banner_footer__item h3 {
   font-size: 20px;

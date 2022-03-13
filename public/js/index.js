@@ -13,13 +13,12 @@ $(function () {
     touchThreshold: 100,
   });
 });
-
 $(function () {
   $(".banner_foter__box").slick({
     dots: false,
     infinite: true,
     speed: 300,
-    autoplay: true,
+    // autoplay: true,
     slidesToShow: 4,
     slidesToScroll: 4,
     responsive: [
