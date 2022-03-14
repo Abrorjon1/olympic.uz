@@ -1,3 +1,6 @@
+html {
+  overflow-x: hidden;
+}
 header {
   font-family: "Roboto", sans-serif;
   min-height: 10vh;
@@ -349,7 +352,7 @@ ul {
   color: #fff;
   border: 1px solid #ccc;
   padding: 0;
-  margin: 10px 20px 10px 0;
+  margin: 10px 21px 10px 0;
   text-align: left;
 }
 
@@ -1008,6 +1011,7 @@ hr {
   flex-direction: row;
   color: #fff;
   text-decoration: none;
+  transition: 0.3s ease all;
 }
 .footer__foot {
   padding: 30px 0;
@@ -1021,13 +1025,17 @@ hr {
 
 .footer__foot .col-lg-4 p {
   margin: 0;
+  font-weight: 700;
 }
 .footer__foot .col-lg-4 {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-
+.footer_tg__link:hover,
+.footer_tg__link:active {
+  color: #929dad;
+}
 /* Responsive Part of Site ***************************************************************** */
 @media only screen and (max-width: 1200px) {
   .olympic_links_above__box {
@@ -1101,7 +1109,10 @@ hr {
     text-decoration: none;
     transition: 0.3s ease all;
   }
-  .canvas__links:active .offcanvas-title:active {
+  .canvas__links:active,
+  .canvas__links:hover,
+  .offcanvas-title:active,
+  .offcanvas-title:hover {
     color: #888;
   }
   .xmark__btn {
@@ -1109,6 +1120,10 @@ hr {
     color: #fff;
     text-decoration: none;
     padding: 0;
+  }
+
+  .xmark__btn:hover {
+    color: #929dad;
   }
   .offcanvas-header ul {
     display: flex;
@@ -1164,6 +1179,9 @@ hr {
   }
   .olympic_links_above__box ul:last-child li a {
     font-size: 12px;
+  }
+  .olympic_links__box {
+    padding-right: 10px;
   }
   .banner {
     height: 82vh;
@@ -1234,6 +1252,23 @@ hr {
     flex-direction: column;
     align-items: center;
   }
+  .footer_tg__link {
+    width: 150px;
+  }
+  .footer__foot {
+    border: none;
+    padding: 0 0 10px 0;
+  }
+  .footer__foot .col-lg-6,
+  .footer__foot .col-lg-4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer__row:first-child {
+    align-items: center;
+    margin-bottom: 20px;
+  }
 }
 @media only screen and (max-width: 768px) {
   header .col-sm-6 {
@@ -1249,6 +1284,10 @@ hr {
   }
   .olympic_links_above__box ul:first-child li {
     margin-right: 0;
+  }
+
+  .olympic_links__box {
+    padding: 0;
   }
   .banner {
     height: 67vh;
@@ -1329,6 +1368,7 @@ hr {
   .olympic_links__box {
     justify-content: space-between;
     flex-direction: row;
+    padding: 0;
   }
   header .col-sm-6 {
     padding: 0px;
@@ -1415,7 +1455,7 @@ hr {
     padding: 3px 5px;
   }
   .interview__section {
-    padding: 0 0 40px 0;
+    padding: 20px 0 40px 0;
   }
   .interview_row__one,
   .interview_row__two {
@@ -1459,5 +1499,36 @@ hr {
   .sport_next__links p {
     padding-left: 0;
     font-size: 15px;
+  }
+  .footer_logo__box .row .col-lg-9 h3 {
+    font-size: 14px;
+    padding: 0;
+  }
+  .social_medias__footer {
+    margin: 25px 0;
+  }
+  .social_medias__footer h4 {
+    margin-bottom: 10px;
+  }
+  .communication__row a {
+    text-align: center;
+    font-size: 14px;
+  }
+  .footer__row .col-lg-2 p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .footer_tg__link {
+    width: 124px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .footer__foot figcaption,
+  .footer__foot .col-lg-4 p {
+    font-size: 14px;
+  }
+  .footer_logo__box .row .col-lg-9 ul li a {
+    padding: 0px;
+    margin-right: 5px;
   }
 }
