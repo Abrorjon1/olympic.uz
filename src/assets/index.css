@@ -490,7 +490,7 @@ hr {
 .news__section {
   font-family: "Roboto", sans-serif;
   min-height: 142vh;
-  padding: 100px 0 0;
+  padding: 100px 0 50px;
 }
 .img__id {
   color: transparent;
@@ -620,7 +620,10 @@ hr {
   color: #ccc;
   font-weight: 700;
 }
-.news__section .container .row .col-6:last-child hr {
+.news_col__8 h5 {
+  font-weight: 700;
+}
+.news__section .container .row .col-12:last-child hr {
   margin: 22px 0;
 }
 
@@ -1310,6 +1313,14 @@ hr {
     font-size: 16px;
   }
   .news__section {
-    padding: 70px 0 0;
+    padding: 70px 0 30px;
+  }
+
+  .news_col__8 h5 {
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  .news__section .container .row .col-12:last-child hr {
+    margin: 16px 0;
   }
 }
