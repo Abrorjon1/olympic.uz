@@ -920,7 +920,7 @@ hr {
 .footer__row:first-child {
   align-items: center;
 }
-.footer .container .row .col-md-5:first-child {
+.footer .container .row .col-lg-5:first-child {
   margin-bottom: auto;
 }
 .footer_logo__box {
@@ -928,23 +928,25 @@ hr {
 }
 .footer_logo__box .row {
   display: flex;
+  width: 100%;
+  margin: 0;
   flex-direction: row;
   align-items: flex-start;
 }
-.footer_logo__box .row .col-2 img {
+.footer_logo__box .row .col-lg-2 img {
   height: 80px;
 }
 
-.footer_logo__box .row .col-9 h3 {
+.footer_logo__box .row .col-lg-9 h3 {
   font-weight: 700;
   font-size: 18px;
   padding: 0 50px 0 0;
 }
-.footer_logo__box .row .col-9 ul {
+.footer_logo__box .row .col-lg-9 ul {
   display: flex;
   flex-direction: row;
 }
-.footer_logo__box .row .col-9 ul li a {
+.footer_logo__box .row .col-lg-9 ul li a {
   font-family: "Museo sans Cyrl 500", sans-serif;
   font-weight: 400;
   list-style: none;
@@ -955,10 +957,10 @@ hr {
   margin-right: 10px;
   text-decoration: none;
 }
-.footer_logo__box .row .col-9 ul li a {
+.footer_logo__box .row .col-lg-9 ul li a {
   padding: 5px;
 }
-.footer_logo__box .row .col-9 h3 {
+.footer_logo__box .row .col-lg-9 h3 {
   font-size: 20px;
 }
 .social_medias__footer {
@@ -990,14 +992,15 @@ hr {
   margin-bottom: 2%;
 }
 
-.footer .container .row .col-md-2 {
+.footer__row .col-lg-2:last-child {
   margin-bottom: auto;
 }
-.footer .container .row .col-md-2 a i {
+.footer_tg__link i {
   margin-right: 5%;
 }
-.footer .container .row .col-md-2 a {
+.footer_tg__link {
   display: flex;
+  font-size: 15px;
   align-items: center;
   padding: 10px 15px;
   border: 1px solid #888;
@@ -1016,10 +1019,10 @@ hr {
   flex-direction: row;
 }
 
-.footer__foot .col-md-4 p {
+.footer__foot .col-lg-4 p {
   margin: 0;
 }
-.footer__foot .col-md-4 {
+.footer__foot .col-lg-4 {
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -1210,6 +1213,26 @@ hr {
   }
   .sport__section .container .row .col-lg-3 .btn .row .col-5 {
     text-align: left;
+  }
+  .footer_logo__box .row {
+    align-items: center;
+  }
+  .footer_logo__box .col-lg-2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .social_medias__footer {
+    justify-content: center;
+    margin: 40px 0;
+  }
+  .communication__row a {
+    display: flex;
+    justify-content: center;
+  }
+  .footer__row .col-lg-2:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media only screen and (max-width: 768px) {

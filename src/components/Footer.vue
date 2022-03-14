@@ -2,15 +2,15 @@
   <footer class="footer">
     <div class="container">
       <div class="row footer__row">
-        <div class="col-md-5">
+        <div class="col-lg-5">
           <div class="footer_logo__box">
             <div class="row">
-              <div class="col-2">
+              <div class="col-4 col-lg-2">
                 <a href="#" class="footer__brand">
                   <img src="./../../public/images/navbar/logo.png" alt="" />
                 </a>
               </div>
-              <div class="col-9">
+              <div class="col-6 col-lg-9">
                 <h3>O‘zbekiston Milliy Olimpiya Qo‘mitasi</h3>
                 <ul>
                   <li><a href="#">CITIUS</a></li>
@@ -38,7 +38,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-lg-5">
           <div class="row communication__row">
             <a href="#">Manzil: Toshkent 100027, Olmazor ko‘chasi, 6</a>
             <a href="#">E-pochta: info@olympic.uz, media@olympic.uz</a>
@@ -46,19 +46,21 @@
             <a href="#">Telefon: +99871 244 4141</a>
           </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-lg-2">
           <p>Obuna bo'ling va hech narsani o'tkazib yubormang</p>
-          <a href="#"><i class="fas fa-location-arrow"></i> Telegram Bot</a>
+          <a href="#" class="footer_tg__link"
+            ><i class="fas fa-location-arrow"></i> Telegram Bot</a
+          >
         </div>
       </div>
       <div class="row footer__foot">
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <figcaption>
             © 2018 - 2022. O‘zbekiston Milliy Olimpiya Qo‘mitasi | Barcha
             huquqlar himoyalangan
           </figcaption>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4">
           <p>Sayt yaratuvchisi: Online Service Group</p>
         </div>
       </div>
