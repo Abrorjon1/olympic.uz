@@ -841,14 +841,14 @@ hr {
   font-weight: 700;
   color: #363c44;
 }
-.sport__section .container .row .col-md-3 {
+.sport__section .container .row .col-lg-3 {
   display: flex;
   justify-content: center;
   border-radius: 1%;
   padding: 12px;
   margin: 0;
 }
-.sport__section .container .row .col-md-3 a {
+.sport__section .container .row .col-lg-3 a {
   display: flex;
   align-items: center;
   width: 100%;
@@ -857,18 +857,18 @@ hr {
   transition: 0.4s ease all;
   border: 1px solid rgb(219, 219, 219);
 }
-.sport__section .container .row .col-md-3 a:hover {
+.sport__section .container .row .col-lg-3 a:hover {
   box-shadow: 0px 2px 8px rgb(157 165 185 / 20%);
   border-color: transparent;
 }
 .sport_text__box p {
   color: rgb(167, 167, 167);
 }
-.sport__section .container .row .col-md-3 a .row {
+.sport__section .container .row .col-lg-3 a .row {
   justify-content: space-around;
   align-items: center;
 }
-.sport__section .container .row .col-md-3 a .row .col-md-4:last-child {
+.sport__section .container .row .col-lg-3 a .row .col-lg-4:last-child {
   border-radius: 50%;
   padding: 0;
   background: #fff6d9;
@@ -1205,6 +1205,12 @@ hr {
   .interview_row__two h4 {
     font-size: 20px;
   }
+  .sport__section .container .row .col-lg-3 a .row {
+    justify-content: space-between;
+  }
+  .sport__section .container .row .col-lg-3 .btn .row .col-5 {
+    text-align: left;
+  }
 }
 @media only screen and (max-width: 768px) {
   header .col-sm-6 {
@@ -1277,6 +1283,9 @@ hr {
   .support__section .container h3 {
     margin: 25px 0;
     font-size: 27px;
+  }
+  .sport__section .container .row .col-lg-3 .btn .row .col-5 {
+    text-align: left;
   }
 }
 
@@ -1402,6 +1411,30 @@ hr {
     font-size: 20px;
   }
   .support__section {
-    padding: 40px 0 0 0;
+    padding: 20px 0 0 0;
+  }
+  .sport__section .container h3 {
+    margin: 15px 0;
+    font-size: 20px;
+  }
+  .sport__section {
+    padding: 20px 0;
+  }
+
+  .sport__section .container .row .col-lg-3 .btn .row .col-5 {
+    text-align: left;
+    padding-left: 0;
+  }
+  .sport_text__box h5 {
+    font-size: 17px;
+  }
+  .sport_next__links button {
+    font-size: 15px;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .sport_next__links p {
+    padding-left: 0;
+    font-size: 15px;
   }
 }
