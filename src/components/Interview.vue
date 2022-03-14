@@ -6,7 +6,7 @@
         <button class="btn btn-outline-primary">Barcha intervyular</button>
       </div>
       <div class="row interview_m__row">
-        <div class="col-7 ml-0">
+        <div class="col-12 col-lg-7 ml-0">
           <a class="interview_col_7_textpart btn">
             <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
             <h4>
@@ -15,16 +15,16 @@
             </h4>
           </a>
         </div>
-        <div class="col-5 mr-0">
+        <div class="col-12 col-lg-5 mr-0">
           <div class="row">
-            <a class="interview_row__one btn">
+            <a class="interview_row__one col-sm-6 col-lg-12 btn">
               <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
               <h4>
                 Shuhrat Salayev: "Keyingi yilgi "Turkish Open" musobaqasida
                 oltin medal olishni maqsad qildim"
               </h4>
             </a>
-            <a class="interview_row__two btn">
+            <a class="interview_row__two col-sm-6 col-lg-12 btn">
               <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
               <h4>Komiljon To'xtayev: "Oson emas! Juda qiyin bo'ldi"</h4>
             </a>

@@ -640,7 +640,7 @@ hr {
   margin: 0 0 90px 0;
   justify-content: space-between;
 }
-.interview_m__row .col-7 {
+.interview_m__row .col-lg-7 {
   padding-left: 0;
 }
 .interview_col_7_textpart {
@@ -1180,6 +1180,20 @@ hr {
   }
   .bf_item {
     padding: 14px;
+  }
+  .interview_m__row .col-lg-7 {
+    margin-bottom: 10px;
+    height: 500px;
+    padding: 0;
+  }
+  .interview_m__row .col-lg-5 .row {
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+  }
+  .interview_row__one,
+  .interview_row__two {
+    width: 49.5%;
   }
 }
 @media only screen and (max-width: 768px) {
