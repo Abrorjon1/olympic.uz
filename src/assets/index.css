@@ -1268,6 +1268,16 @@ hr {
     height: 300px;
     margin-bottom: 5px;
   }
+  .interview__section {
+    padding: 40px 0;
+  }
+  .news__head h3 {
+    font-size: 27px;
+  }
+  .support__section .container h3 {
+    margin: 25px 0;
+    font-size: 27px;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -1373,7 +1383,7 @@ hr {
     padding: 3px 5px;
   }
   .interview__section {
-    padding: 40px 0;
+    padding: 0 0 40px 0;
   }
   .interview_row__one,
   .interview_row__two {
@@ -1382,5 +1392,16 @@ hr {
 
   .interview_m__row {
     margin: 0 0 40px 0;
+  }
+  .tab button {
+    padding: 3px;
+    font-size: 14px;
+  }
+  .support__section .container h3 {
+    margin: 20px 0;
+    font-size: 20px;
+  }
+  .support__section {
+    padding: 40px 0 0 0;
   }
 }

@@ -27,27 +27,29 @@
 
       <div v-if="show == false" id="London" class="tabcontent">
         <div class="row interview_m__row">
-          <div class="col-7 ml-0">
+          <div class="col-12 col-lg-7 ml-0">
             <a class="interview_col_7_textpart btn">
               <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
-              <h4>
+              <h4 class="text-truncate">
                 Olimjon Hikmatov: "Asosiy vazifa - Osiyo o‘yinlariga kuchli
                 tarkib bilan borish!"
               </h4>
             </a>
           </div>
-          <div class="col-5 mr-0">
+          <div class="col-12 col-lg-5 mr-0">
             <div class="row">
-              <a class="interview_row__one btn">
+              <a class="interview_row__one col-12 col-sm-6 col-lg-12 btn">
                 <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
-                <h4>
+                <h4 class="text-truncate">
                   Shuhrat Salayev: "Keyingi yilgi "Turkish Open" musobaqasida
                   oltin medal olishni maqsad qildim"
                 </h4>
               </a>
-              <a class="interview_row__two btn">
+              <a class="interview_row__two col-12 col-sm-6 col-lg-12 btn">
                 <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
-                <h4>Komiljon To'xtayev: "Oson emas! Juda qiyin bo'ldi"</h4>
+                <h4 class="text-truncate">
+                  Komiljon To'xtayev: "Oson emas! Juda qiyin bo'ldi"
+                </h4>
               </a>
             </div>
           </div>
@@ -55,24 +57,28 @@
       </div>
       <div v-else id="Paris" class="tabcontent">
         <div class="row interview_m__row">
-          <div class="col-7 ml-0">
+          <div class="col-12 col-lg-7 ml-0">
             <a class="interview_col_7_textpart media__video_content__one btn">
               <p><i class="lnr lnr-history"></i> 15 Yanvar 2022</p>
-              <h4>
+              <h4 class="text-truncate">
                 MOQ rahbarining muvaffaqiyatli urinishi Oʻzbekiston
                 chempionatini ochib berdi"
               </h4>
             </a>
           </div>
-          <div class="col-5 mr-0">
+          <div class="col-12 col-lg-5 mr-0">
             <div class="row">
-              <a class="interview_row__one media__video_content__two btn">
+              <a
+                class="interview_row__one media__video_content__two col-12 col-sm-6 col-lg-12 btn"
+              >
                 <p><i class="lnr lnr-history"></i> 31 Mart 2022</p>
-                <h4>"Save Aral" endi Toshkentda!</h4>
+                <h4 class="text-truncate">"Save Aral" endi Toshkentda!</h4>
               </a>
-              <a class="interview_row__two media__video_content__three btn">
+              <a
+                class="interview_row__two media__video_content__three col-12 col-sm-6 col-lg-12 btn"
+              >
                 <p><i class="lnr lnr-history"></i> 5 Iyun 2022</p>
-                <h4>
+                <h4 class="text-truncate">
                   Yugurish bo'yicha O'zbekistonga kirib kelayotgan Jahon sporti
                   !
                 </h4>
