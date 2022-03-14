@@ -510,7 +510,9 @@ hr {
   font-size: 30px;
   font-weight: 700;
   color: #363c44;
+  margin: 0;
 }
+
 .news__section .row .col-12 img {
   width: 100%;
   border-radius: 1%;
@@ -1186,6 +1188,10 @@ hr {
     height: 500px;
     padding: 0;
   }
+
+  .interview_m__row .col-lg-5 {
+    padding: 0;
+  }
   .interview_m__row .col-lg-5 .row {
     width: 100%;
     margin: 0;
@@ -1194,6 +1200,10 @@ hr {
   .interview_row__one,
   .interview_row__two {
     width: 49.5%;
+  }
+  .interview_row__one h4,
+  .interview_row__two h4 {
+    font-size: 20px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1249,6 +1259,14 @@ hr {
   }
   .modal-body form input {
     font-size: 20px;
+  }
+  .interview_row__one h4,
+  .interview_row__two h4 {
+    font-size: 18px;
+  }
+  .interview_m__row .col-lg-7 {
+    height: 300px;
+    margin-bottom: 5px;
   }
 }
 
@@ -1336,5 +1354,33 @@ hr {
   }
   .news__section .container .row .col-12:last-child hr {
     margin: 16px 0;
+  }
+  .interview_m__row .col-lg-7 {
+    margin-bottom: 10px;
+  }
+  .news__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .news__head h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .btn {
+    font-size: 16px;
+    padding: 3px 5px;
+  }
+  .interview__section {
+    padding: 40px 0;
+  }
+  .interview_row__one,
+  .interview_row__two {
+    width: 100%;
+  }
+
+  .interview_m__row {
+    margin: 0 0 40px 0;
   }
 }
