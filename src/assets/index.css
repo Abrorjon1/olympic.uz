@@ -284,6 +284,16 @@ ul {
   position: relative;
   z-index: 1;
 }
+.banner__wrapper,
+.banner__wrapper .slick-list,
+.banner__wrapper .slick-list .slick-track {
+  height: 100% !important;
+}
+.banner_item__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .banner_item__img {
   width: 100%;
 }
@@ -352,7 +362,7 @@ ul {
   color: #fff;
   border: 1px solid #ccc;
   padding: 0;
-  margin: 10px 21px 10px 0;
+  margin: 10px 22px 10px 0;
   text-align: left;
 }
 
@@ -1401,7 +1411,7 @@ hr {
   }
   .banner__footer {
     height: 30vh;
-    bottom: 5vh;
+    bottom: 3vh;
   }
   .bf_item {
     padding: 20px 15px;
@@ -1425,6 +1435,9 @@ hr {
   }
   .modal-body form input {
     font-size: 16px;
+  }
+  .modal.fade .modal-dialog {
+    width: 70%;
   }
   .news__section {
     padding: 70px 0 30px;
