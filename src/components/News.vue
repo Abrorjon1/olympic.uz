@@ -6,7 +6,7 @@
         <button class="btn btn-outline-primary">Barcha yangilikalar</button>
       </div>
       <div class="row">
-        <div class="col-6">
+        <div class="col-12 col-lg-6">
           <div
             id="carouselExampleControls"
             class="carousel slide carousel-fade"
@@ -88,7 +88,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-12 col-lg-6">
           <div class="row">
             <div class="col-4">
               <img src="./../../public/images/news/n1.jpg" alt="" />

@@ -511,23 +511,23 @@ hr {
   font-weight: 700;
   color: #363c44;
 }
-.news__section .row .col-6 img {
+.news__section .row .col-12 img {
   width: 100%;
   border-radius: 1%;
   height: 100%;
   object-fit: cover;
   object-position: left top;
 }
-.news__section .row .col-6:first-child p {
+.news__section .row .col-12:first-child p {
   margin: 15px 0;
   color: #ccc;
   font-weight: 700;
 }
-.news__section .row .col-6 h4 {
+.news__section .row .col-12 h4 {
   font-weight: 700;
   margin-bottom: 20px;
 }
-.news__section .row .col-6 figcaption {
+.news__section .row .col-12 figcaption {
   color: #ccc;
   font-size: 17px;
   font-weight: 700;
@@ -1157,9 +1157,12 @@ hr {
   .olympic_links_above__box ul:last-child li a {
     font-size: 12px;
   }
+  .banner {
+    height: 82vh;
+  }
   .banner__footer {
     height: 30vh;
-    bottom: 22vh;
+    bottom: 3vh;
   }
   .banner_item__text {
     top: 14vh;
@@ -1191,6 +1194,9 @@ hr {
   .olympic_links_above__box ul:first-child li {
     margin-right: 0;
   }
+  .banner {
+    height: 67vh;
+  }
   .banner_item__text {
     top: 9vh;
   }
@@ -1206,7 +1212,7 @@ hr {
   }
   .banner__footer {
     height: 22vh;
-    bottom: 41vh;
+    bottom: 8vh;
   }
   .bf_item {
     padding: 11px;
@@ -1266,7 +1272,7 @@ hr {
     width: 10%;
   }
   .banner_item__text {
-    top: 26vh;
+    top: 7vh;
   }
   .banner_item__text h3 {
     font-size: 20px;
@@ -1278,7 +1284,7 @@ hr {
   }
   .banner__footer {
     height: 30vh;
-    bottom: 11vh;
+    bottom: 5vh;
   }
   .bf_item {
     padding: 20px 15px;
@@ -1302,5 +1308,8 @@ hr {
   }
   .modal-body form input {
     font-size: 16px;
+  }
+  .news__section {
+    padding: 70px 0 0;
   }
 }
