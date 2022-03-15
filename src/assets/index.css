@@ -367,6 +367,7 @@ ul {
   padding: 0;
   margin: 10px 22px 10px 0;
   text-align: left;
+  height: 140px;
 }
 
 .banner_footer__item:hover {
@@ -1291,6 +1292,9 @@ hr {
     align-items: center;
     margin-bottom: 20px;
   }
+  .footer__foot .col-lg-4 p {
+    margin-top: 25px;
+  }
 }
 @media only screen and (max-width: 768px) {
   header .col-sm-6 {
@@ -1318,7 +1322,7 @@ hr {
     padding: 0;
   }
   .banner {
-    height: 67vh;
+    height: 73vh;
   }
   .banner_item__text {
     top: 9vh;
@@ -1422,7 +1426,7 @@ hr {
     width: 10%;
   }
   .banner_item__text {
-    top: 7vh;
+    top: 40px;
   }
   .banner_item__text h3 {
     font-size: 20px;
@@ -1433,14 +1437,14 @@ hr {
     font-size: 14px;
   }
   .banner__footer {
-    height: 30vh;
-    bottom: 3vh;
+    height: 183px;
+    bottom: 10px;
   }
   .bf_item {
     padding: 20px 15px;
   }
   .banner_footer__item h3 {
-    font-size: 22px;
+    font-size: 16px;
   }
   .olympic_logo__box .row {
     justify-content: center;
@@ -1491,7 +1495,6 @@ hr {
   }
   .btn {
     font-size: 16px;
-    padding: 3px 5px;
   }
   .interview__section {
     padding: 20px 0 40px 0;
