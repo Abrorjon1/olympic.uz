@@ -1,6 +1,9 @@
 html {
   overflow-x: hidden;
 }
+body {
+  overflow: hidden;
+}
 header {
   font-family: "Roboto", sans-serif;
   min-height: 10vh;
@@ -366,6 +369,9 @@ ul {
   text-align: left;
 }
 
+.banner_footer__item:hover {
+  padding: 0;
+}
 .banner_footer__item_b,
 .banner_footer__item_a,
 .banner_footer__item_c,
@@ -588,7 +594,7 @@ hr {
   color: #0754c8;
 }
 .carousel-control-next {
-  left: 11vh;
+  left: 80px;
 }
 .carousel-inner {
   height: 640px;
@@ -1245,6 +1251,9 @@ hr {
   .sport__section .container .row .col-lg-3 .btn .row .col-5 {
     text-align: left;
   }
+  .news__section .col-lg-6:first-child {
+    margin-bottom: 60px;
+  }
   .footer_logo__box .row {
     align-items: center;
   }
@@ -1298,7 +1307,13 @@ hr {
   .olympic_links_above__box ul:first-child li {
     margin-right: 0;
   }
-
+  .slider_counter {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    position: absolute;
+    left: 70px;
+    bottom: -50px;
+  }
   .olympic_links__box {
     padding: 0;
   }
@@ -1361,6 +1376,11 @@ hr {
   }
   .sport__section .container .row .col-lg-3 .btn .row .col-5 {
     text-align: left;
+  }
+  .news__section .row .col-12 h4 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 20px;
   }
 }
 

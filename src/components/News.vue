@@ -16,7 +16,7 @@
               <div class="carousel-item active news__slide" data-id="1">
                 <img src="./../../public/images/news/n1.jpg" />
                 <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
-                <h4>
+                <h4 class="text-truncate">
                   Aziz ayollar, muhtaram opa-singillar, bayramingiz muborak
                   bo‘lsin!
                 </h4>
@@ -25,7 +25,7 @@
                   Xalqaro xotin-qizlar kuni uchun
                 </figcaption>
                 <div class="slider_counter">
-                  <span class="first__count">1 /</span>
+                  <span class="first__count"><b>1</b> /</span>
                   <span class="overall__count">3</span>
                 </div>
                 <span class="img__id">1</span>
@@ -34,7 +34,7 @@
               <div class="carousel-item news__slide" data-id="2">
                 <img src="./../../public/images/news/n3.jpg" />
                 <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
-                <h4>
+                <h4 class="text-truncate">
                   Suvga sakrash. Hamyurtlarimiz Yevrosiyo kubogida sovrindor
                   bo‘lishdi
                 </h4>
@@ -43,7 +43,7 @@
                   birinchi bor tashkil
                 </figcaption>
                 <div class="slider_counter">
-                  <span class="first__count">2 /</span>
+                  <span class="first__count"><b>2</b> /</span>
                   <span class="overall__count">3</span>
                 </div>
                 <span class="img__id">2</span>
@@ -51,7 +51,7 @@
               <div class="carousel-item news__slide" data-id="3">
                 <img src="./../../public/images/news/n2.jpg" />
                 <p><i class="lnr lnr-history"></i> 2 Mart 2022</p>
-                <h4>
+                <h4 class="text-truncate">
                   Sportni rivojlantirish vaziri O‘zbekiston dzyudo
                   federatsiyasiga tashrif buyurdi
                 </h4>
@@ -60,7 +60,7 @@
                   federatsiyasida bo‘lib
                 </figcaption>
                 <div class="slider_counter">
-                  <span class="first__count">3 /</span>
+                  <span class="first__count"><b>3</b> /</span>
                   <span class="overall__count">3</span>
                 </div>
                 <span class="img__id">3</span>
