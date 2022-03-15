@@ -20,11 +20,11 @@
                   Aziz ayollar, muhtaram opa-singillar, bayramingiz muborak
                   bo‘lsin!
                 </h4>
-                <figcaption>
+                <figcaption class="text-truncate">
                   O‘zbekiston Milliy Olimpiya qo‘mitasi Sizlarni 8 mart –
                   Xalqaro xotin-qizlar kuni uchun
                 </figcaption>
-                <div class="slider_counter abm">
+                <div class="slider_counter">
                   <span class="first__count">1 /</span>
                   <span class="overall__count">3</span>
                 </div>
@@ -38,7 +38,7 @@
                   Suvga sakrash. Hamyurtlarimiz Yevrosiyo kubogida sovrindor
                   bo‘lishdi
                 </h4>
-                <figcaption>
+                <figcaption class="text-truncate">
                   Suvga sakrash bo‘yicha O‘zbekiston terma jamoasi a’zolari
                   birinchi bor tashkil
                 </figcaption>
@@ -55,11 +55,11 @@
                   Sportni rivojlantirish vaziri O‘zbekiston dzyudo
                   federatsiyasiga tashrif buyurdi
                 </h4>
-                <figcaption>
+                <figcaption class="text-truncate">
                   Sportni rivojlantirish vaziri Adham Ikramov O‘zbekiston dzyudo
                   federatsiyasida bo‘lib
                 </figcaption>
-                <div class="slider_counter abm">
+                <div class="slider_counter">
                   <span class="first__count">3 /</span>
                   <span class="overall__count">3</span>
                 </div>

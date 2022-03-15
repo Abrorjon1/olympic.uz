@@ -503,7 +503,7 @@ hr {
 .news__section {
   font-family: "Roboto", sans-serif;
   min-height: 142vh;
-  padding: 100px 0 50px;
+  padding: 100px 0 100px;
 }
 .img__id {
   color: transparent;
@@ -526,7 +526,7 @@ hr {
   margin: 0;
 }
 
-.news__section .row .col-12 img {
+.news__section .row .col-12:last-child img {
   width: 100%;
   border-radius: 1%;
   height: 100%;
@@ -549,14 +549,12 @@ hr {
 }
 .slider_counter {
   font-family: "Lato", sans-serif;
-  margin: 20px 10px;
-  position: relative;
-  left: 8vh;
+  margin: 0;
+  position: absolute;
+  left: 10vh;
+  bottom: -7vh;
 }
 
-.slider_counter.abm {
-  margin: 36px 10px;
-}
 .first__count,
 .overall__count {
   font-weight: 700;
@@ -601,6 +599,11 @@ hr {
   -webkit-transform: translateX(-40px);
   transform: translateX(-40px);
   opacity: 0;
+  height: 500px;
+  border-radius: 1%;
+
+  width: 100%;
+  object-fit: cover;
   -webkit-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
 }
@@ -1438,6 +1441,9 @@ hr {
   }
   .modal.fade .modal-dialog {
     width: 70%;
+  }
+  .modal-body form button {
+    width: 17%;
   }
   .news__section {
     padding: 70px 0 30px;
