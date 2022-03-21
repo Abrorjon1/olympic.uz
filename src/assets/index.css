@@ -1437,8 +1437,8 @@ hr {
     font-size: 14px;
   }
   .banner__footer {
-    height: 183px;
-    bottom: 10px;
+    height: 155px;
+    bottom: 40px;
   }
   .bf_item {
     padding: 20px 15px;
@@ -1572,5 +1572,13 @@ hr {
   .footer_logo__box .row .col-lg-9 ul li a {
     padding: 0px;
     margin-right: 5px;
+  }
+}
+
+/* Special Devices  */
+
+@media only screen and (max-height: 480px) {
+  .banner_item__text {
+    top: 11px;
   }
 }
