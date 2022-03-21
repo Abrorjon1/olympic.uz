@@ -1426,7 +1426,7 @@ hr {
     width: 10%;
   }
   .banner_item__text {
-    top: 40px;
+    top: 76px;
   }
   .banner_item__text h3 {
     font-size: 20px;
@@ -1580,5 +1580,27 @@ hr {
 @media only screen and (max-height: 480px) {
   .banner_item__text {
     top: 11px;
+  }
+}
+@media only screen and (max-height: 360px) and (max-width: 640px) {
+  .banner {
+    height: 80vh;
+  }
+  .banner__footer {
+    height: 6vh;
+    bottom: 39vh;
+  }
+  .bf_item {
+    padding-bottom: 0px;
+  }
+  .banner_item__text h3 {
+    font-weight: 700;
+    font-size: 23px;
+    margin: 11px 0;
+  }
+}
+@media only screen and (max-height: 540px) and (max-width: 330px) {
+  .banner_item__text {
+    top: 35px;
   }
 }
